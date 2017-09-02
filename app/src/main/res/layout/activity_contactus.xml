@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contactus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212a49"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rm.dell.aaruush17.Contactus">
+
+    <EditText
+        android:id="@+id/et_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="@dimen/space40"
+        android:background="@drawable/field_layout2"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:lines="1"
+        android:paddingEnd="4dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="4dp"
+        android:paddingStart="16dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/txt_hint"
+        android:textSize="@dimen/txt16" />
+
+    <EditText
+        android:id="@+id/et_query"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_mobile"
+        android:layout_marginTop="@dimen/space10"
+        android:background="@drawable/field_layout2"
+        android:gravity="start|top"
+        android:hint="Query"
+        android:inputType="textMultiLine"
+        android:lines="6"
+        android:maxLines="8"
+        android:paddingBottom="8dp"
+        android:paddingEnd="4dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="4dp"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:scrollHorizontally="false"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/txt_hint"
+        android:textSize="@dimen/txt16" />
+
+    <LinearLayout
+        android:id="@+id/ll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_query"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:background="@drawable/btn_white_selector"
+            android:text="Submit"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/txt16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="#3000"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Find Us On"
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/fb"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fb" />
+
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/insta" />
+
+        <ImageView
+            android:id="@+id/tw"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tw" />
+
+        <ImageView
+            android:id="@+id/yt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/yt" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

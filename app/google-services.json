@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "700601821102",
+    "firebase_url": "https://aaruush17-a87df.firebaseio.com",
+    "project_id": "aaruush17-a87df",
+    "storage_bucket": "aaruush17-a87df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700601821102:android:0d464e781c278877",
+        "android_client_info": {
+          "package_name": "com.abhiprae.aaruush17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700601821102-mrc2vcds8uiog1ep7r0jokgdr52ncqm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoQ-lpmw71dlVITMC4ctlqrtA5L1iGM4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#161c31">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/header_nav" />
+
+    <TextView
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:id="@+id/aa17"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/uname"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:id="@+id/x1"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/aa17"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="X1 EDITION"
+        android:textColor="#ffffff" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/headerlogo"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="2dp" />
+</RelativeLayout>

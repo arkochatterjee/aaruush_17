@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Aaruush17</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="srmabouttext">Started in the year 1985, and currently ranked as one of the best private universities in the country, S.R.M. University provides students with a wide range of undergraduate,postgraduate and doctoral programs, in the fields of Engineering, Medical, Health Sciences and Sciences and Humanities. The sprawling campus, spread out over an area of 600 acres, includes state-of-the-art architecture and facilities, such as the world class library, smart class rooms, air conditioned lecture halls, Wi-Fi Campus and many more. SRM also takes pride in its 4000 capacity T.P. Ganesan auditorium, Asia\'s second largest auditorium.</string>
+    <string name="srmcollabtext">In collaboration with world renowned universities and institutions such as MIT, Carnegie Mellon, UC Davis and Warwick, the university always aims to improve its curriculum, keeping them at par with the global standards. The University has accreditations from the national agencies like the UGC, AICTE and boasts an \'a\' grade from the NAAC. Some of the courses additionally have an ABET accreditation.</string>
+    <string name="collaborationstitle">Collaborations :</string>
+    <string name="legacytext1">The word \'Aaruush\' translates to \'the first rays of the sun\'. And that\'s what it was, at the time of its inception back in 2007, the rays of the sun, which would eventually enlighten the lives of many people for years to come.</string>
+    <string name="legacytext2">The inception was presided over by the former president of India, Dr. A.P.J. Abdul Kalam.</string>
+    <string name="legacytext3">After its noteworthy beginning in 2007, there was no looking back, it only kept getting better each year.</string>
+    <string name="taglinetext1">Welcoming brilliant ideas, and mind-boggling designs, Aaruush ’17 aims to redefine and elevate intelligence. Aaruush ’17 proudly presents its tagline,</string>
+    <string name="taglinetext2">“Empowering Designs</string>
+    <string name="taglinetext3">Exalting Intelligence”</string>
+    <string name="aboutthemetext1">Beautiful. Exciting. Ravishing. Enchanting.</string>
+    <string name="aboutthemetext2">These are just few of the words we use to describe things that are Infinite. AARUUSH uses these ideas to create a platform showcasing a plethora of talent. We find infinity in the number of stars in the night sky, the number of raindrops in an ocean, the memories hidden behind the lens of an eye and the number of ideas that emerge out of minds alike.</string>
+    <string name="aboutthemetext3">Aaruush towards Infinity leads these minds towards the path of inspiration, discovery, growth and achievement. It brings out the talents of more than 40,000 of its participants with utmost enthusiasm and gratification. With mind-boggling events and eye-catching highlights, Aaruush ’17 steps into its 11th year with the spark of the wondrous eternity.</string>
+    <string name="aaruush_towards_infinity">Aaruush Towards Infinity</string>
+</resources>

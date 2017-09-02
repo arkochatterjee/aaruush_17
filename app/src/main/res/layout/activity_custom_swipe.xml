@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:id="@+id/record_filter_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:scrollbars="none"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/effectNone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="colorEffectFilter"
+                    android:src="@drawable/f1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/effectNone"
+                    android:layout_centerInParent="true"
+                    android:text=""
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/effectAqua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="colorEffectFilter"
+                    android:src="@drawable/f2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/effectAqua"
+                    android:layout_centerInParent="true"
+                    android:text=""
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/effectBlackboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="colorEffectFilter"
+                    android:src="@drawable/f3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/effectBlackboard"
+                    android:layout_centerInParent="true"
+                    android:text=""
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/effectMono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="colorEffectFilter"
+                    android:src="@drawable/f4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/effectMono"
+                    android:layout_centerInParent="true"
+                    android:text=""
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/effectNegative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="colorEffectFilter"
+                    android:src="@drawable/f5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/effectNegative"
+                    android:layout_centerInParent="true"
+                    android:text=""
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <!--<RadioGroup
+            android:id="@+id/record_filter_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </RadioGroup>-->
+
+    </HorizontalScrollView>
+
+</LinearLayout>

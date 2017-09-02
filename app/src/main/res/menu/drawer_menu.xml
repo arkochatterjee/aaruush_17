@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_id"
+            android:icon="@drawable/home_icon"
+            android:title="HOME" />
+
+        <item
+            android:id="@+id/sponsors_id"
+            android:icon="@drawable/about_icon"
+            android:title="ABOUT US" />
+        <item
+            android:id="@+id/patrons_id_tab"
+            android:icon="@drawable/patrons_icon"
+            android:title="PATRONS" />
+
+        <item
+            android:id="@+id/game"
+            android:icon="@drawable/stock_icon"
+            android:title="STOCK MARKET" />
+<!--
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/camera_logo"
+            android:title="CAMERA" />
+            -->
+
+        <item
+            android:id="@+id/domains_id"
+            android:icon="@drawable/star"
+            android:title="EVENTS" />
+        <item
+            android:id="@+id/workshops_id"
+            android:icon="@drawable/workshops"
+            android:title="WORKSHOPS" />
+
+        <item
+            android:id="@+id/championship_id"
+            android:icon="@drawable/workshops"
+            android:title="CHAMPIONSHIPS" />
+
+        <item
+            android:id="@+id/favourites_id"
+            android:icon="@drawable/spon"
+            android:title="SPONSORS" />
+        <item
+            android:id="@+id/highlights_id"
+            android:icon="@drawable/highlights"
+            android:title="HIGHLIGHTS" />
+        <item
+            android:id="@+id/patrons_id"
+            android:icon="@drawable/ini"
+            android:title="INITIATIVES" />
+
+        <item
+            android:id="@+id/gallery_id"
+            android:icon="@drawable/gallery_icon"
+            android:title="GALLERY" />
+        <item
+            android:id="@+id/team_id"
+            android:icon="@drawable/team"
+            android:title="TEAM" />
+
+        <item
+            android:id="@+id/credits_id"
+            android:icon="@drawable/dev"
+            android:title="CREDITS" />
+
+        <item
+            android:id="@+id/settings_id"
+            android:icon="@drawable/settings"
+            android:title="SETTINGS" />
+        <item
+            android:id="@+id/contactus_id"
+            android:icon="@drawable/contactus"
+            android:title="CONTACT US" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/log_out"
+            android:title="EXIT" />
+    </group>
+
+</menu>
