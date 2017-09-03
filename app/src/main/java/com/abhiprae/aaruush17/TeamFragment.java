@@ -56,9 +56,9 @@ public class TeamFragment extends Fragment {
         patrons.add(new ViewFlipperItem(R.drawable.gautham, "  Gautham Reddy.Ch  ", R.color.green, "  Envisions, Arts & Deco  ", "", "  9087860816  "));
         patrons.add(new ViewFlipperItem(R.drawable.radhika, "  Radhika Shukla  ", R.color.saffron, " Envision and Bluebook  ", "", "  9087860522  "));
         patrons.add(new ViewFlipperItem(R.drawable.sabiq, "  Sabiq Ali Chaudhary  ", R.color.green, "  Envision  ", "", "  900830106  "));
-        patrons.add(new ViewFlipperItem(R.drawable.saikrishna, "  Sai Krishna  ", R.color.saffron, "  Sponserships  ", "", "  8015417147  "));
-        patrons.add(new ViewFlipperItem(R.drawable.pavan, "  Sai Pavan V  ", R.color.green, "  Sponsership & Marketing , Highlights  ", "", "  8754173353  "));
-        patrons.add(new ViewFlipperItem(R.drawable.aneek, "  Aneek Barman Roy  ", R.color.saffron, "  Sponserships and Workshops  ", "", ""));
+        patrons.add(new ViewFlipperItem(R.drawable.saikrishna, "  Sai Krishna  ", R.color.saffron, "  Sponsorship & Marketing", "", "  8015417147  "));
+        patrons.add(new ViewFlipperItem(R.drawable.pavan, "  Sai Pavan V  ", R.color.green, "  Sponsorship & Marketing, Highlights  ", "", "  8754173353  "));
+        patrons.add(new ViewFlipperItem(R.drawable.aneek, "  Aneek Barman Roy  ", R.color.saffron, "  Sponsorship and Workshop", "", ""));
         patrons.add(new ViewFlipperItem(R.drawable.shivansh, "  Shivansh Mishra  ", R.color.green, "  Highlights  ", "", "  9790461501  "));
         patrons.add(new ViewFlipperItem(R.drawable.manish, "  Manish Agarwal  ", R.color.saffron, "  Quality Assurance  ", "", "  9566270540  "));
         patrons.add(new ViewFlipperItem(R.drawable.soumya, "  Soumya Sharma  ", R.color.green, "  Quality Assurance  ", "", "  9418123175  "));

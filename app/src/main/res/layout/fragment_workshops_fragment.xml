@@ -18,12 +18,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/toolbar"
-            android:background="#212a49"
+            android:background="#28282B"
             android:elevation="6dp"
             android:minHeight="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:tabIndicatorColor="#44e0b2"
-            app:tabSelectedTextColor="#44e0b2" />
+            app:tabIndicatorColor="#0099a7"
+            app:tabSelectedTextColor="#0099a7" />
 
         <android.support.v4.view.ViewPager
             android:id="@+id/pager"

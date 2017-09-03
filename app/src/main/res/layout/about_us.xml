@@ -3,23 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#212a49"
+    android:background="#28282B"
     android:orientation="vertical"
-    tools:context="com.rm.dell.aaruush17.about_us">
+    tools:context="AboutUs.about_us">
 
 
     <android.support.design.widget.TabLayout
         android:id="@+id/sliding_tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#212a49"
+        android:background="#28282B"
         android:elevation="6dp"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:tabGravity="fill"
-        app:tabIndicatorColor="#44e0b2"
+        app:tabIndicatorColor="#0099a7"
         app:tabMode="scrollable"
-        app:tabSelectedTextColor="#44e0b2" />
+        app:tabSelectedTextColor="#0099a7" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"

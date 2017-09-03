@@ -222,7 +222,7 @@
             android:onClick="onSignUp"
             android:text="Sign Up"
             android:textAllCaps="false"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/pink"
             android:textSize="@dimen/txt16" />
 
     </LinearLayout>

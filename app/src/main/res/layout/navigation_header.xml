@@ -35,7 +35,7 @@
     <TextView
         android:id="@+id/x1"
         android:layout_width="match_parent"
-        android:layout_height="15dp"
+        android:layout_height="16dp"
         android:layout_below="@+id/aa17"
         android:layout_marginBottom="10dp"
         android:gravity="center"

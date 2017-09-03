@@ -3,7 +3,6 @@ package com.abhiprae.aaruush17;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,14 +10,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.Toast;
-
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-
-import java.util.HashMap;
 
 /**
  * Created by Abhiprae on 7/22/2017.
@@ -33,8 +24,6 @@ public class Contactus extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.activity_contactus, container, false);
         ((MainActivity) getActivity()).setOnBackPressedListener(new BaseBackPressedListener(getActivity()));
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        final DatabaseReference myRef = database.getReference("Query");
 
         final EditText phone = (EditText) v.findViewById(R.id.et_mobile);
         final EditText query = (EditText) v.findViewById(R.id.et_query);
@@ -53,22 +42,14 @@ public class Contactus extends Fragment {
             @Override
             public void onClick(View view) {
                 String phone_no = phone.getText().toString();
-                String query_txt = query.getText().toString();
+                String query_txt = "Phone : "+phone_no+"\n\nQuery : " + query.getText().toString();
+                String subject = "AARUUSH QUERY";
+                Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                        "mailto","tech.aaruushcreatives@gmail.com", null));
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
+                emailIntent.putExtra(Intent.EXTRA_TEXT, query_txt);
+                startActivity(Intent.createChooser(emailIntent, "Send email..."));
 
-                HashMap<String,String> data = new HashMap<String, String>();
-                data.put("Phone No",phone_no);
-                data.put("Query",query_txt);
-                myRef.setValue(data).addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        if(task.isSuccessful()){
-                            Toast.makeText(getContext(), "Data Updated Succesfully", Toast.LENGTH_LONG).show();
-                        }
-                        else {
-                            Toast.makeText(getContext(), "Data Update Failed", Toast.LENGTH_LONG).show();
-                        }
-                    }
-                });
             }
         });
         //ImageView img = (ImageView)findViewById(R.id.foo_bar);

@@ -41,7 +41,7 @@ public class SettingsFragment extends Fragment {
         ((MainActivity) getActivity()).setOnBackPressedListener(new BaseBackPressedListener(getActivity()));
         LinearLayout editNameLayout, editPicLayout, logOutLayout;
         //  editNameLayout = (LinearLayout) view.findViewById(R.id.editName);
-        editPicLayout = (LinearLayout) view.findViewById(R.id.editPic);
+        //editPicLayout = (LinearLayout) view.findViewById(R.id.editPic);
         logOutLayout = (LinearLayout) view.findViewById(R.id.logOut);
 
         /*editNameLayout.setOnClickListener(new View.OnClickListener() {

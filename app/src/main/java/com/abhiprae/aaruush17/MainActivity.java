@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FontsOverride.setDefaultFont(this, "MONOSPACE", "M_R.ttf");
+        FontsOverride.setDefaultFont(this, "MONOSPACE", "avenir.otf");
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

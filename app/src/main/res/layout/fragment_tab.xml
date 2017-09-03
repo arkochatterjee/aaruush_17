@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#212a49">
+    android:background="#28282B">
 
     <TextView
         android:id="@+id/domain_des"
         android:layout_width="match_parent"
         android:layout_height="20dp"
 
-        android:background="#212a49"
+        android:background="#28282B"
         android:gravity="center"
         android:textColor="#ffffff" />
 
@@ -18,5 +18,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/domain_des"
-        android:background="#212a49"></android.support.v7.widget.RecyclerView>
+        android:background="#28282B"/>
 </RelativeLayout>

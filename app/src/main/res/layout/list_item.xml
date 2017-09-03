@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
-        card_view:cardBackgroundColor="#212a49"
+        card_view:cardBackgroundColor="#28282B"
         card_view:cardElevation="1dp">
 
         <TextView

@@ -34,12 +34,12 @@
             android:title="EVENTS" />
         <item
             android:id="@+id/workshops_id"
-            android:icon="@drawable/workshops"
+            android:icon="@drawable/workshop"
             android:title="WORKSHOPS" />
 
         <item
             android:id="@+id/championship_id"
-            android:icon="@drawable/workshops"
+            android:icon="@drawable/championship"
             android:title="CHAMPIONSHIPS" />
 
         <item

@@ -21,7 +21,7 @@
         <FrameLayout
             android:id="@+id/main_container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></FrameLayout>
+            android:layout_height="match_parent"/>
 
     </LinearLayout>
 
@@ -30,10 +30,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
-        android:background="#232c4b"
+        android:background="#28282B"
         app:headerLayout="@layout/navigation_header"
         app:itemIconTint="#ffffff"
         app:itemTextAppearance="@style/NavigationDrawerStyle"
         app:itemTextColor="#ffffff"
-        app:menu="@menu/drawer_menu"></android.support.design.widget.NavigationView>
+        app:menu="@menu/drawer_menu"/>
 </android.support.v4.widget.DrawerLayout>

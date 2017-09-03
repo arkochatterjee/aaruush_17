@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#030d40</color>
-    <color name="colorPrimaryDark">#18203e</color>
+    <!--<color name="colorPrimary">#030d40</color> -->
+    <color name="colorPrimary">#0099a7</color>
+    <color name="colorPrimaryDark">#00838f</color>
     <color name="colorAccent">#FF4081</color>
 
 
@@ -11,7 +12,7 @@
     <color name="txt_hint">#BDBDBD</color>
     <color name="saffron">#F4B63E</color>
     <color name="sienna">#EB6460</color>
-    <color name="green">#10b4a5</color>
+    <color name="green">#0099a7</color>
     <color name="purple">#7c57e4</color>
     <color name="pink">#ff4284</color>
 </resources>
