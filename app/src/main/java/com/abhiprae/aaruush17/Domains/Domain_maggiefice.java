@@ -12,8 +12,7 @@ import android.widget.TextView;
 
 import com.abhiprae.aaruush17.BaseBackPressedListener;
 import com.abhiprae.aaruush17.MainActivity;
-import com.abhiprae.aaruush17.MyAdapter;
-import com.abhiprae.aaruush17.MyAdapter_DMag;
+import com.abhiprae.aaruush17.Domain_Adapters.MyAdapter_DMag;
 import com.abhiprae.aaruush17.R;
 
 /**

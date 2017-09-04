@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.abhiprae.aaruush17.BaseBackPressedListener;
 import com.abhiprae.aaruush17.MainActivity;
-import com.abhiprae.aaruush17.MyAdapter;
+import com.abhiprae.aaruush17.Domain_Adapters.MyAdapter_DOnline;
 import com.abhiprae.aaruush17.R;
 
 /**
@@ -33,7 +33,7 @@ public class Domain_Online extends Fragment {
 
         RecyclerView rv = (RecyclerView) view.findViewById(R.id.rv_recycler_view);
         rv.setHasFixedSize(true);
-        MyAdapter adapter = new MyAdapter(new String[]{"Google Hunt", "Digi-Comic", "CAM-O-PHILIC"});
+        MyAdapter_DOnline adapter = new MyAdapter_DOnline(new String[]{"Google Hunt", "Digi-Comic", "CAM-O-PHILIC"});
         rv.setAdapter(adapter);
 
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());

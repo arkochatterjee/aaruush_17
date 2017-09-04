@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.abhiprae.aaruush17.BaseBackPressedListener;
 import com.abhiprae.aaruush17.MainActivity;
-import com.abhiprae.aaruush17.MyAdapter;
+import com.abhiprae.aaruush17.Domain_Adapters.MyAdapter_DPrae;
 import com.abhiprae.aaruush17.R;
 
 /**
@@ -33,7 +33,7 @@ public class Domain_Presentatio extends Fragment {
 
         RecyclerView rv = (RecyclerView) view.findViewById(R.id.rv_recycler_view);
         rv.setHasFixedSize(true);
-        MyAdapter adapter = new MyAdapter(new String[]{"Four Stages Of Life", "Expresso", "Fandom","Modinomics"});
+        MyAdapter_DPrae adapter = new MyAdapter_DPrae(new String[]{"Four Stages Of Life", "Expresso", "Fandom","Modinomics"});
         rv.setAdapter(adapter);
 
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());

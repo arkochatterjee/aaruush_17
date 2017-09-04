@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.abhiprae.aaruush17.BaseBackPressedListener;
 import com.abhiprae.aaruush17.MainActivity;
-import com.abhiprae.aaruush17.MyAdapter;
+import com.abhiprae.aaruush17.Domain_Adapters.MyAdapter_DXZone;
 import com.abhiprae.aaruush17.R;
 
 /**
@@ -34,7 +34,7 @@ public class Domain_XZone extends Fragment {
 
         RecyclerView rv = (RecyclerView) view.findViewById(R.id.rv_recycler_view);
         rv.setHasFixedSize(true);
-        MyAdapter adapter = new MyAdapter(new String[]{"Breaking Bad", "Casio Mania", "Cryptic Crack","Fantastic Beasts"});
+        MyAdapter_DXZone adapter = new MyAdapter_DXZone(new String[]{"Breaking Bad", "Casio Mania", "Cryptic Crack","Fantastic Beasts"});
         rv.setAdapter(adapter);
 
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());

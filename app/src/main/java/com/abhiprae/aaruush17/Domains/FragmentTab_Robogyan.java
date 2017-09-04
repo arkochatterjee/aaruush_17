@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.abhiprae.aaruush17.MyAdapter;
+import com.abhiprae.aaruush17.Domain_Adapters.MyAdapter;
 import com.abhiprae.aaruush17.R;
 
 public class FragmentTab_Robogyan extends Fragment {

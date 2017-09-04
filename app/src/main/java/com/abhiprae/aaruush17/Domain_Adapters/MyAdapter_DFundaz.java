@@ -1,4 +1,4 @@
-package com.abhiprae.aaruush17;
+package com.abhiprae.aaruush17.Domain_Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.abhiprae.aaruush17.R;
+import com.abhiprae.aaruush17.test_activity;
 
 /**
  * Created by Arko Chatterjee on 02-09-2017.

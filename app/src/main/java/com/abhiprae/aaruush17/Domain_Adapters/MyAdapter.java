@@ -1,4 +1,4 @@
-package com.abhiprae.aaruush17;
+package com.abhiprae.aaruush17.Domain_Adapters;
 
 /**
  * Created by Abhiprae on 7/22/2017.
@@ -14,6 +14,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.abhiprae.aaruush17.R;
+import com.abhiprae.aaruush17.test_activity;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public Context mContext;

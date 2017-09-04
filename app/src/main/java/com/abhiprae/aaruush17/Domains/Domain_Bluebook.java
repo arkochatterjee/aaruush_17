@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.abhiprae.aaruush17.BaseBackPressedListener;
 import com.abhiprae.aaruush17.MainActivity;
-import com.abhiprae.aaruush17.MyAdapter;
+import com.abhiprae.aaruush17.Domain_Adapters.MyAdapter_Blue;
 import com.abhiprae.aaruush17.R;
 
 /**
@@ -33,7 +33,7 @@ public class Domain_Bluebook extends Fragment {
 
         RecyclerView rv = (RecyclerView) view.findViewById(R.id.rv_recycler_view);
         rv.setHasFixedSize(true);
-        MyAdapter adapter = new MyAdapter(new String[]{"Grey's M.D.", "221 B Baker's Street", "Alchemist","Wingardium Nerviosa"});
+        MyAdapter_Blue adapter = new MyAdapter_Blue(new String[]{"Grey's M.D.", "221 B Baker's Street", "Alchemist","Wingardium Nerviosa"});
         rv.setAdapter(adapter);
 
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());

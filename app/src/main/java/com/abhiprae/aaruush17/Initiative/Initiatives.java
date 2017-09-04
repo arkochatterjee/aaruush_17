@@ -1,10 +1,19 @@
-package com.abhiprae.aaruush17;
+package com.abhiprae.aaruush17.Initiative;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.abhiprae.aaruush17.BaseBackPressedListener;
+import com.abhiprae.aaruush17.MainActivity;
+import com.abhiprae.aaruush17.R;
 
 /**
  * Created by Abhiprae on 7/22/2017.
@@ -21,9 +30,9 @@ public class Initiatives extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.domain_comingsoon, container, false);
+        View view = inflater.inflate(R.layout.fragment_highlights_fragment, container, false);
         ((MainActivity) getActivity()).setOnBackPressedListener(new BaseBackPressedListener(getActivity()));
-       /* TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
+        TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Organ Donation Campaign"));
         tabLayout.addTab(tabLayout.newTab().setText("Welfare of Oppressed Friends"));
         tabLayout.addTab(tabLayout.newTab().setText("Liter of Light Campaign"));
@@ -59,11 +68,11 @@ public class Initiatives extends Fragment {
             public void onTabReselected(TabLayout.Tab tab) {
 
             }
-        });*/
+        });
         return view;
     }
 
-    /*
+
 
     public class PagerAdapter extends FragmentStatePagerAdapter {
         int mNumOfTabs;
@@ -78,15 +87,14 @@ public class Initiatives extends Fragment {
 
             switch (position) {
                 case 0:
-                    return new workshop_quadcopter();
+                    return new Ini_OrganDonation_Fragment();
                 case 1:
-                    return new workshop_swarmrobotics();
+                    return new Ini_Welfare_Fragment();
                 case 2:
-                    return new workshop_swarmrobotics();
+                    return new Ini_Liter_Fragment();
                 case 3:
-                    return new workshop_swarmrobotics();
-                case 4:
-                    return new workshop_swarmrobotics();
+                    return new Ini_DigitalIndia_Fragment();
+
 
 
                 default:
@@ -98,5 +106,5 @@ public class Initiatives extends Fragment {
             return mNumOfTabs;
         }
     }
-*/
+
 }

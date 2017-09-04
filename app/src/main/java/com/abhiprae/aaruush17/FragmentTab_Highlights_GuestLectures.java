@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.abhiprae.aaruush17.Domain_Adapters.MyAdapterHighlights;
+
 /**
  * Created by Abhiprae on 7/22/2017.
  */

@@ -1,7 +1,12 @@
 package com.abhiprae.aaruush17;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,16 +27,20 @@ public class highlights_fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.domain_comingsoon, container, false);
+        View view = inflater.inflate(R.layout.fragment_highlights_fragment, container, false);
         ((MainActivity) getActivity()).setOnBackPressedListener(new BaseBackPressedListener(getActivity()));
-        /*
+
 
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
+        tabLayout.addTab(tabLayout.newTab().setText("Comedy Nite"));
+        tabLayout.addTab(tabLayout.newTab().setText("Live in Concert"));
+        tabLayout.addTab(tabLayout.newTab().setText("Movie Nite"));
+        tabLayout.addTab(tabLayout.newTab().setText("Proshows"));
         tabLayout.addTab(tabLayout.newTab().setText("Guest Lectures"));
+        tabLayout.addTab(tabLayout.newTab().setText("Expos"));
         tabLayout.addTab(tabLayout.newTab().setText("Industrial Conclave"));
         tabLayout.addTab(tabLayout.newTab().setText("Unconference"));
-        tabLayout.addTab(tabLayout.newTab().setText("Expos"));
-        tabLayout.addTab(tabLayout.newTab().setText("Aaruush Nites"));
+        tabLayout.addTab(tabLayout.newTab().setText("Make in India Summit"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
 
@@ -61,11 +70,11 @@ public class highlights_fragment extends Fragment {
 
             }
         });
-*/
+
         return view;
     }
 
-    /*
+
 
     public class PagerAdapter extends FragmentStatePagerAdapter {
         int mNumOfTabs;
@@ -80,7 +89,7 @@ public class highlights_fragment extends Fragment {
 
             switch (position) {
                 case 0:
-                    return new FragmentTab_Highlights_GuestLectures();
+                    return new HL_ComedyNite_Fragment();
                 case 1:
                     return new FragmentTab_Highlights_GuestLectures();
                 case 2:
@@ -100,6 +109,6 @@ public class highlights_fragment extends Fragment {
         public int getCount() {
             return mNumOfTabs;
         }
-    }*/
+    }
 
 }

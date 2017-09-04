@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.abhiprae.aaruush17.BaseBackPressedListener;
 import com.abhiprae.aaruush17.MainActivity;
-import com.abhiprae.aaruush17.MyAdapter;
+import com.abhiprae.aaruush17.Domain_Adapters.MyAdapter_DDigital;
 import com.abhiprae.aaruush17.R;
 
 /**
@@ -33,7 +33,7 @@ public class Domain_DigitalDesign extends Fragment {
 
         RecyclerView rv = (RecyclerView) view.findViewById(R.id.rv_recycler_view);
         rv.setHasFixedSize(true);
-        MyAdapter adapter = new MyAdapter(new String[]{"Artsy Lens", "Digizine", "Location Decrypted", "MadADzzz"});
+        MyAdapter_DDigital adapter = new MyAdapter_DDigital(new String[]{"Artsy Lens", "Digizine", "Location Decrypted", "MadADzzz"});
         rv.setAdapter(adapter);
 
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());

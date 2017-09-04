@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.abhiprae.aaruush17.Domain_Adapters.MyAdapter;
+
 /**
  * Created by Abhiprae on 7/22/2017.
  */
