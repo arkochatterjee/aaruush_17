@@ -156,6 +156,7 @@ public class MyAdapter_Blue extends RecyclerView.Adapter<MyAdapter_Blue.MyViewHo
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
+                        intent3.putExtra("pic", "4");
                         intent3.putExtra("data","Description:\n" +
                                 "This event is based on how your brain works and you will get to know the magic your brain does. This event enlightens you with more connection of brain with your body. As you grow older your brain learns new spells, which may help in controlling your body. As you move through this event you will be more astonished to see the way your brain functions!\n" +
                                 "\n" +

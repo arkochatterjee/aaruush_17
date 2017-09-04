@@ -159,6 +159,7 @@ public class MyAdapter_DPrae extends RecyclerView.Adapter<MyAdapter_DPrae.MyView
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
+                        intent3.putExtra("pic", "4");
                         intent3.putExtra("data","Description:\n" +
                                 "\n" +
                                 "\n" +

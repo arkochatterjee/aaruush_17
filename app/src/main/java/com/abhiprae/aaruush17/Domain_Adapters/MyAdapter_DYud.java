@@ -168,6 +168,7 @@ public class MyAdapter_DYud extends RecyclerView.Adapter<MyAdapter_DYud.MyViewHo
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
+                        intent3.putExtra("pic", "4");
                         intent3.putExtra("data","Description:\n" +
                                 "Coding is the new swag and what better way to pamper it with Hacker Earth. All you coders its an open challenge to COME,CODE and COMPILE. The participants can come as a team of 2.\n" +
                                 "\n" +

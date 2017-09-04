@@ -99,6 +99,14 @@ public class highlights_fragment extends Fragment {
                 case 4:
                     return new FragmentTab_Highlights_GuestLectures();
 
+                case 5:
+                    return new FragmentTab_Highlights_GuestLectures();
+                case 6:
+                    return new FragmentTab_Highlights_GuestLectures();
+                case 7:
+                    return new FragmentTab_Highlights_GuestLectures();
+                case 8:
+                    return new FragmentTab_Highlights_GuestLectures();
 
                 default:
                     return null;

@@ -165,6 +165,7 @@ public class MyAdapter_DMag extends RecyclerView.Adapter<MyAdapter_DMag.MyViewHo
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
+                        intent3.putExtra("pic", "4");
                         intent3.putExtra("data","Theme:\n" +
                                 "\n" +
                                 "Stock Market, entrepreneurship, ethical values of business.Rounds:\n" +

@@ -189,6 +189,7 @@ public class MyAdapter_DFundaz extends RecyclerView.Adapter<MyAdapter_DFundaz.My
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
+                        intent3.putExtra("pic", "4");
                         intent3.putExtra("data","Theme: \n" +
                                 "Part 5, 6, 7 and 8 of the Harry Potter Series\n" +
                                 "Description:\n" +

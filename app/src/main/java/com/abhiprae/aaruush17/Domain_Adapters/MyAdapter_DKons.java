@@ -200,6 +200,7 @@ public class MyAdapter_DKons extends RecyclerView.Adapter<MyAdapter_DKons.MyView
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
+                        intent3.putExtra("pic", "4");
                         intent3.putExtra("data","Description:\n" +
                                 "Create with heart; build with mind. Your imagination is a weapon of mass construction, use it.\n" +
                                 "This event will test your knowledge, your imagination and your money management skills. Construct your building, propose your tender and let the bidding begin.\n" +

@@ -178,6 +178,7 @@ public class MyAdapter_DVimaz extends RecyclerView.Adapter<MyAdapter_DVimaz.MyVi
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
+                        intent3.putExtra("pic", "4");
                         intent3.putExtra("data","No Description");
                         view.getContext().startActivity(intent3);
                         break;

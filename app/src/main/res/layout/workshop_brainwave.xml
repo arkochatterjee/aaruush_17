@@ -50,7 +50,7 @@
             android:layout_marginTop="24dp"
             android:background="@drawable/btn_white_selector"
             android:text="Click to Register"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/txt16" />
 
 

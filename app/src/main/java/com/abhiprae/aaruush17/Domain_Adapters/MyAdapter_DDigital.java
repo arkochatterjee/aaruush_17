@@ -189,6 +189,7 @@ public class MyAdapter_DDigital extends RecyclerView.Adapter<MyAdapter_DDigital.
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
+                        intent3.putExtra("pic", "4");
                         intent3.putExtra("data","Description:\n" +
                                 "The first round is quiz and tagline competiton followed by second round in which name, logo and tagline is to be designed for a particular product given. The third round is to make a video on the product given.\n" +
                                 "\n" +

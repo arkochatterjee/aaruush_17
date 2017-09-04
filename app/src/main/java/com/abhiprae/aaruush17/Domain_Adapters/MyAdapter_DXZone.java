@@ -156,6 +156,7 @@ public class MyAdapter_DXZone extends RecyclerView.Adapter<MyAdapter_DXZone.MyVi
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
+                        intent3.putExtra("pic", "4");
                         intent3.putExtra("data","Theme:-\n" +
                                 "Physical exertion and the ability of participants to tackle hurdles and obstacles better.\n" +
                                 "\n" +

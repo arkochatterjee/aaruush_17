@@ -40,14 +40,15 @@ public class workshop_theScribbledStories extends android.support.v4.app.Fragmen
         Drawable drawable = getResources().getDrawable(R.drawable.app_scr);
         i.setImageDrawable(drawable);
         Button button = (Button) v.findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Uri uri = Uri.parse("https://www.thecollegefever.com/events/aaruush17");
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
-            }
-        });
+        button.setVisibility(View.GONE);
+        //button.setOnClickListener(new View.OnClickListener() {
+          //  @Override
+            //public void onClick(View view) {
+              //  Uri uri = Uri.parse("https://www.thecollegefever.com/events/aaruush17");
+                //Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+               // startActivity(intent);
+           // }
+        //});
         return v;
     }
 }

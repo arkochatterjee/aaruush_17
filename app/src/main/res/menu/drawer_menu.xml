@@ -39,7 +39,7 @@
 
         <item
             android:id="@+id/championship_id"
-            android:icon="@drawable/championship"
+            android:icon="@drawable/workshop"
             android:title="CHAMPIONSHIPS" />
 
         <item

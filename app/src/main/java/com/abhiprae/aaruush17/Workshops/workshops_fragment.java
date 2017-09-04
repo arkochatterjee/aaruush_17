@@ -34,7 +34,6 @@ public class workshops_fragment extends Fragment {
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
 
         tabLayout.addTab(tabLayout.newTab().setText("Hacktrack"));
-        tabLayout.addTab(tabLayout.newTab().setText("The Scribbled Stories"));
         tabLayout.addTab(tabLayout.newTab().setText("Social Media Analytics using Big Data"));
         tabLayout.addTab(tabLayout.newTab().setText("Bike Over Hauling"));
         tabLayout.addTab(tabLayout.newTab().setText("Swarm Robotics - Obstancle Avoidance"));
@@ -42,6 +41,7 @@ public class workshops_fragment extends Fragment {
         tabLayout.addTab(tabLayout.newTab().setText("Webench Power Tool by Texas Instruments"));
         tabLayout.addTab(tabLayout.newTab().setText("Cognitive Computing using watson"));
         tabLayout.addTab(tabLayout.newTab().setText("Photography"));
+        tabLayout.addTab(tabLayout.newTab().setText("The Scribbled Stories"));
 
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
@@ -93,21 +93,21 @@ public class workshops_fragment extends Fragment {
                 case 0:
                     return new HackTrackFragment();
                 case 1:
-                    return new workshop_theScribbledStories();
-                case 2:
                     return new workshop_socialmediadataanalytics();
-                case 3:
+                case 2:
                     return new workshop_bikeoverhauling();
-                case 4:
+                case 3:
                     return new workshop_swarmrobotics();
-                case 5:
+                case 4:
                     return new workshop_quadcopter();
-                case 6:
+                case 5:
                     return new WebenchFragment();
-                case 7:
+                case 6:
                     return new CognitiveFragment();
-                case 8:
+                case 7:
                     return new workshop_photography();
+                case 8:
+                    return new workshop_theScribbledStories();
 
 
                 default:

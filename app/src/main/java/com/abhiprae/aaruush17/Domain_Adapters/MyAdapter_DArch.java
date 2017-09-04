@@ -191,6 +191,7 @@ public class MyAdapter_DArch extends RecyclerView.Adapter<MyAdapter_DArch.MyView
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
+                        intent3.putExtra("pic", "4");
                         intent3.putExtra("data","Description:\n" +
                                 "Will you stay calm in a crisis, or will you panic? Test your survival skills by building structures and shelters to survive a natural disasters in this event. Make the best of the resources available to keep everyone safe and sound.\n" +
                                 "\n" +

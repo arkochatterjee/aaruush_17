@@ -181,6 +181,7 @@ public class MyAdapter_DElec extends RecyclerView.Adapter<MyAdapter_DElec.MyView
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
+                        intent3.putExtra("pic", "4");
                         intent3.putExtra("data","Description:\n" +
                                 "hey!!! Do u find electric circuits mesmerizing...dnt wry deres nothing wrong with dat...coz we are here to appreciate ur talents and give u a chance to discover ur true selves... Because we believe in electromania!!!\n" +
                                 "\n" +
