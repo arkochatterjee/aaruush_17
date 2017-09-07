@@ -72,7 +72,7 @@ public class MyAdapter_DOnline extends RecyclerView.Adapter<MyAdapter_DOnline.My
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(),test_activity.class);
-                        intent.putExtra("pic","1");
+                        intent.putExtra("pic",R.drawable.googlehunt);
                         intent.putExtra("data","Content:\n" +
                                 "If you ever wanted to be a part of a treasure hunt but are too lazy to go out of your room in the sun, GOOGLE HUNT if the place for you. Be a part of this online treasure hunt and try your luck.\n" +
                                 "Description:\n" +
@@ -90,7 +90,7 @@ public class MyAdapter_DOnline extends RecyclerView.Adapter<MyAdapter_DOnline.My
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic","2");
+                        intent1.putExtra("pic",R.drawable.digicomics);
                         intent1.putExtra("data","Content:\n" +
                                 "If Marvel and DC is what you dream of, if superheroes and cartoons is what you live for, DIGI-COMIC is the right place for you. Showcase your skills of imagination and be a great comic book writer. Prove your love and devotion for all those fictional characters in this digital comic book writing arena.\n" +
                                 "Description:\n" +
@@ -108,7 +108,7 @@ public class MyAdapter_DOnline extends RecyclerView.Adapter<MyAdapter_DOnline.My
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic","3");
+                        intent2.putExtra("pic",R.drawable.camophilic);
                         intent2.putExtra("data","Content:\n" +
                                 "If photography is your favourite passion, if you feel that cam-worm in you then CAM-O-PHILIC is the right place for you. Come, showcase your photography skills and be the next renowned photographer.\n" +
                                 "Description:\n" +

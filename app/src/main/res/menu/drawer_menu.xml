@@ -20,7 +20,7 @@
         <item
             android:id="@+id/game"
             android:icon="@drawable/stock_icon"
-            android:title="STOCK MARKET" />
+            android:title="SRM STOCK MARKET" />
 <!--
         <item
             android:id="@+id/camera"
@@ -39,7 +39,7 @@
 
         <item
             android:id="@+id/championship_id"
-            android:icon="@drawable/workshop"
+            android:icon="@drawable/championship"
             android:title="CHAMPIONSHIPS" />
 
         <item

@@ -28,7 +28,7 @@ public class Domain_Bluebook extends Fragment {
         View view = inflater.inflate(R.layout.fragment_tab, container, false);
 
         ((MainActivity) getActivity()).setOnBackPressedListener(new BaseBackPressedListener(getActivity()));
-        ((TextView) view.findViewById(R.id.domain_des)).setText("Games don't die,they respawn!");
+        ((TextView) view.findViewById(R.id.domain_des)).setText("Existance | Evolution | Discovery ");
 
 
         RecyclerView rv = (RecyclerView) view.findViewById(R.id.rv_recycler_view);

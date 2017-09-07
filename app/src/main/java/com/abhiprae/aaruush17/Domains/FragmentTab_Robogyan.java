@@ -27,7 +27,7 @@ public class FragmentTab_Robogyan extends Fragment {
         View view = inflater.inflate(R.layout.fragment_tab, container, false);
 
 
-        ((TextView) view.findViewById(R.id.domain_des)).setText("Games don't die,they respawn!");
+        ((TextView) view.findViewById(R.id.domain_des)).setText("Logic | Develope | Automate");
         RecyclerView rv = (RecyclerView) view.findViewById(R.id.rv_recycler_view);
         rv.setHasFixedSize(true);
         MyAdapter adapter = new MyAdapter(new String[]{"CARBON", "PRO-STREET", "MOST WANTED", "SHIFT"});

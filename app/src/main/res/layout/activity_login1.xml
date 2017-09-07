@@ -119,7 +119,7 @@
             android:id="@+id/btn_sign_up"
             android:layout_width="@dimen/btn_width"
             android:layout_height="@dimen/btn_height"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="18dp"
             android:background="@drawable/button_layout_white"
             android:onClick="onSignUp"
             android:text="Sign Up"
@@ -133,14 +133,14 @@
             android:gravity="center_horizontal"
             android:text="Powered by Aaruush Creatives"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/txt14"
+            android:textSize="12sp"
             android:textStyle="normal" />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_height="88dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
@@ -148,8 +148,8 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
 
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"

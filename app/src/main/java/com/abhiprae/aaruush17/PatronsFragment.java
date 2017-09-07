@@ -35,10 +35,10 @@ public class PatronsFragment extends Fragment {
         ((MainActivity) getActivity()).setOnBackPressedListener(new BaseBackPressedListener(getActivity()));
         patrons = new ArrayList<>();
 
-        patrons.add(new ViewFlipperItem(R.drawable.director, "  Dr. C. Muthamizhchelvan  ", R.color.saffron, "  Director E&T  ", "", ""));
-        patrons.add(new ViewFlipperItem(R.drawable.convenor, "  Prof. Rathinam. A  ", R.color.green, "  Convenor - Aaruush  ", "", ""));
-        patrons.add(new ViewFlipperItem(R.drawable.estate, " Mr. V. Thirumurugan  ", R.color.green, "  Associate Director  ", "", ""));
-        patrons.add(new ViewFlipperItem(R.drawable.finance, "  Prof. V. Ponniah  ", R.color.saffron, "  Finance Advisor - Aaruush  ", "", ""));
+        patrons.add(new ViewFlipperItem(R.drawable.director, "  Dr. C. Muthamizhchelvan  ", R.color.green, " Director Engg. & Tech. - Chief Patron", "", ""));
+        patrons.add(new ViewFlipperItem(R.drawable.convenor, "  Prof. Dr. A. Rathinam  ", R.color.saffron, "  Convenor - Aaruush  ", "", ""));
+        patrons.add(new ViewFlipperItem(R.drawable.estate, " Mr. V. Thirumurugan  ", R.color.saffron, "  Associate Director  ", "", ""));
+        patrons.add(new ViewFlipperItem(R.drawable.finance, "  Prof. V.M. Ponniah  ", R.color.green, "  Financial Advisor - Aaruush  ", "", ""));
 
 
         FlipSettings settings = new FlipSettings.Builder().defaultPage(1).build();

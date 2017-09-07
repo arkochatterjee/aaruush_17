@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                         fragmentTransaction = getSupportFragmentManager().beginTransaction();
                         fragmentTransaction.replace(R.id.main_container, new Sponsors_fragment());
                         fragmentTransaction.commit();
-                        getSupportActionBar().setTitle("Sponsers");
+                        getSupportActionBar().setTitle("Sponsors");
                         item.setChecked(true);
                         drawerLayout.closeDrawers();
                         break;

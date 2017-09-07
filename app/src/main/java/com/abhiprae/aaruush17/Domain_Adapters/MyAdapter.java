@@ -72,7 +72,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                        // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(),test_activity.class);
-                        intent.putExtra("pic","1");
+                        intent.putExtra("pic",R.drawable.carbon);
                         intent.putExtra("data","Description:\n" +
                                 "The event is basically of autonomous bots which follow the desired track on their sensor input which can be programmed .It follows the black line as the light is reflected back by the white surface which give input to the sensor whereas the black surface absorb the radiation.\n" +
                                 "ROBOT SPECIFICATIONS\n" +
@@ -135,7 +135,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic","2");
+                        intent1.putExtra("pic",R.drawable.prostreet);
                         intent1.putExtra("data","Description:\n" +
                                 "In this event the participant’s bot need to be equipped with ultrasonic sensors and should perform some specific tasks given to them under a stipulated period of time. The bots should be autonomous and should successfully maneuver through certain tracks.\n" +
                                 "ROBOT SPECIFICATIONS\n" +
@@ -181,7 +181,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic","3");
+                        intent2.putExtra("pic",R.drawable.mostwanted);
                         intent2.putExtra("data","Description:\n" +
                                 "It is based on the NFS Most Wanted Game. It is a land based event in which a bot, built by the contestants will have to traverse through different terrains.\n" +
                                 "\n" +
@@ -209,7 +209,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.shift);
                         intent3.putExtra("data","No Description");
                         view.getContext().startActivity(intent3);
                         break;

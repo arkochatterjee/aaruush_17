@@ -72,7 +72,7 @@ public class MyAdapter_DKons extends RecyclerView.Adapter<MyAdapter_DKons.MyView
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(),test_activity.class);
-                        intent.putExtra("pic","1");
+                        intent.putExtra("pic",R.drawable.event_bbt);
                         intent.putExtra("data","Description:\n" +
                                 "Fascinated by the Golden Gate Bridge? Can't wait to build your own Tower Bridge? This event lets you turn your imagination into reality by letting you design and model your own bridge. \n" +
                                 "“We build to many walls and not enough bridges” – Isaac Newton\n" +
@@ -119,7 +119,7 @@ public class MyAdapter_DKons extends RecyclerView.Adapter<MyAdapter_DKons.MyView
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic","2");
+                        intent1.putExtra("pic",R.drawable.event_riddler);
                         intent1.putExtra("data","Description:\n" +
                                 "For those involved in Construction & Building its an incredible joy to be involved in bringing forth from mere drawings and ideas a structure that will stand for many lifetimes. Experience this joy and come to be a part of this quest.\n" +
                                 "Be it structure designing, insane quizzing contests or brainstorming puzzles, this event gives you an opportunity to use your inner creativity and technical skills to create marvels.\n" +
@@ -158,7 +158,7 @@ public class MyAdapter_DKons extends RecyclerView.Adapter<MyAdapter_DKons.MyView
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic","3");
+                        intent2.putExtra("pic",R.drawable.event_masterbuilder);
                         intent2.putExtra("data","Description:\n" +
                                 "Dreamers only dream, waiting to get rich cream. We are the creators, we bridge the gap and turn illusion into reality. Creators are the leaders of their own life. Be a child, let your imagination go wild, Be a creator not a follower.\n" +
                                 "“I often wonder what I will be remembered in history for. Scholar? Military Hero? Builder?” -Ferdinand Marcos \n" +
@@ -200,7 +200,7 @@ public class MyAdapter_DKons extends RecyclerView.Adapter<MyAdapter_DKons.MyView
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.event_band);
                         intent3.putExtra("data","Description:\n" +
                                 "Create with heart; build with mind. Your imagination is a weapon of mass construction, use it.\n" +
                                 "This event will test your knowledge, your imagination and your money management skills. Construct your building, propose your tender and let the bidding begin.\n" +

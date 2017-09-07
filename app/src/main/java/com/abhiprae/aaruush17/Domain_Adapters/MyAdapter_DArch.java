@@ -72,7 +72,7 @@ public class MyAdapter_DArch extends RecyclerView.Adapter<MyAdapter_DArch.MyView
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(),test_activity.class);
-                        intent.putExtra("pic","1");
+                        intent.putExtra("pic", R.drawable.brickiton);
                         intent.putExtra("data","Description:\n" +
                                 "Building routes through rough terrain can be a challenge. Build a path for a marble through valleys, mountains, rivers and forests in this event. Get the marble safety from the start to the end. Will your path be tough enough to withstand rough terrain?\n" +
                                 "\n" +
@@ -112,7 +112,7 @@ public class MyAdapter_DArch extends RecyclerView.Adapter<MyAdapter_DArch.MyView
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic","2");
+                        intent1.putExtra("pic",R.drawable.gameofstones);
                         intent1.putExtra("data","Description:\n" +
                                 "“When you play the Game of Stones, you either build or destroy. There is no middle ground.”Collect as many stones as you can in the rounds, and design and build your own model structure using the stones earned in the previous round. The stones directly interlink all the rounds. Do you have it in you to build the Red Keep? The Titan of Braavos or the Eyrie?\n" +
                                 "\n" +
@@ -153,7 +153,7 @@ public class MyAdapter_DArch extends RecyclerView.Adapter<MyAdapter_DArch.MyView
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic","3");
+                        intent2.putExtra("pic",R.drawable.thelostworld);
                         intent2.putExtra("data","Description:\n" +
                                 "So you think you can design an entire city? Test your urban planning skills in this event and design an entire city from scratch. Will your city be the biggest and most prosperous metropolitan in the world? The beautiful cities then designed had architectural design values that served the purpose of the habitants well. This event encompasses the idea of building sustainable cities which we dream to live in. \n" +
                                 "\n" +
@@ -191,7 +191,7 @@ public class MyAdapter_DArch extends RecyclerView.Adapter<MyAdapter_DArch.MyView
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.noahsark);
                         intent3.putExtra("data","Description:\n" +
                                 "Will you stay calm in a crisis, or will you panic? Test your survival skills by building structures and shelters to survive a natural disasters in this event. Make the best of the resources available to keep everyone safe and sound.\n" +
                                 "\n" +

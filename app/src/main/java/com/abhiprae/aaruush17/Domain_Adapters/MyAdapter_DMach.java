@@ -72,7 +72,7 @@ public class MyAdapter_DMach extends RecyclerView.Adapter<MyAdapter_DMach.MyView
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(),test_activity.class);
-                        intent.putExtra("pic","1");
+                        intent.putExtra("pic",R.drawable.cartantara);
                         intent.putExtra("data","Description:\n" +
                                 "What’s the whole framework on which the car is made rigid? Chassis. Involving the basics of the truss and its application, Machination presents Car Tantra. Play, test, and build your knowledge about trusses. \n" +
                                 "\n" +
@@ -99,7 +99,7 @@ public class MyAdapter_DMach extends RecyclerView.Adapter<MyAdapter_DMach.MyView
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic","2");
+                        intent1.putExtra("pic",R.drawable.wildstrike);
                         intent1.putExtra("data","Description:\n" +
                                 "Does the sound of guns give you more rush than a can of RedBull? Are you always on the edge of your seats during action sequences? Is Arnold Schwarzeneggar one of your favourite heroes? If yes, then be ready to be FIRED... Coz here \"Nothing is true, everything is permitted!!\"\n" +
                                 "\n" +
@@ -126,7 +126,7 @@ public class MyAdapter_DMach extends RecyclerView.Adapter<MyAdapter_DMach.MyView
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic","3");
+                        intent2.putExtra("pic",R.drawable.retronation);
                         intent2.putExtra("data","Description:\n" +
                                 "It is the opportunity to explore THE VINTAGE MACHINES and revive the thirst to go further and gain knowledge about the purest of machines which have evolved to be the best ROUND DESCRIPTION.\n" +
                                 "\n" +

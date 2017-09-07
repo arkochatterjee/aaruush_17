@@ -33,12 +33,11 @@ public class championship_fragment extends Fragment {
 
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
 
-
-        tabLayout.addTab(tabLayout.newTab().setText("SPORTS"));
+        tabLayout.addTab(tabLayout.newTab().setText("CODEWARS"));
         tabLayout.addTab(tabLayout.newTab().setText("ROBOWARS"));
         tabLayout.addTab(tabLayout.newTab().setText("DEATH DRIFT - RC CARS"));
-        tabLayout.addTab(tabLayout.newTab().setText("CODEWARS"));
         tabLayout.addTab(tabLayout.newTab().setText("QUADCOPTER"));
+        tabLayout.addTab(tabLayout.newTab().setText("SPORTS"));
 
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
@@ -88,15 +87,15 @@ public class championship_fragment extends Fragment {
 
             switch (position) {
                 case 0:
-                    return new championships_sports();
+                    return new championships_hackathin();
                 case 1:
                     return new championships_robowars();
                 case 2:
                     return new championships_deathdrift();
                 case 3:
-                    return new championships_hackathin();
-                case 4:
                     return new championship_quadcopter();
+                case 4:
+                return new championships_sports();
 
 
                 default:

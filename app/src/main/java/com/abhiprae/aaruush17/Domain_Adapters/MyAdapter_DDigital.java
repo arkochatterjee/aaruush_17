@@ -72,7 +72,7 @@ public class MyAdapter_DDigital extends RecyclerView.Adapter<MyAdapter_DDigital.
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(),test_activity.class);
-                        intent.putExtra("pic","1");
+                        intent.putExtra("pic",R.drawable.artsylens);
                         intent.putExtra("data","Theme: Artsy lens is an event that has come up in order to help students built in confidence on his/her creative abilities and let him/her explore their brain as to making them think out of the box.\n" +
                                 "\n" +
                                 "Description: It is an event which consist of three rounds. These rounds would seem to look as an easy task but it has its own level of difficulty that will helps us in testing the cognitive abilities of a student for his/her well being in the world of digitalisation.\n" +
@@ -111,7 +111,7 @@ public class MyAdapter_DDigital extends RecyclerView.Adapter<MyAdapter_DDigital.
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic","2");
+                        intent1.putExtra("pic",R.drawable.digizine);
                         intent1.putExtra("data","Theme:THIS EVENT IS FOR THOSE WHO ARE GOOD WITH VOCABULARY.IT TESTS OUT THE CREATIVE SKILLS OF THE PARTICIPANT IN VIDEOGRAPHY,DUBSMASHING.\n" +
                                 "\n" +
                                 "Description:THE EVENT HAS THREE ROUNDS.IN FIRST ROUND THE VOCABULARY OF THE PARTICIPANT WILL BE TESTED.THE SECOND ROUND IS FUN STUFF CONTAINING DUBSMASH.IN THIS ROUND PARTICIPANTS WILL MAKE A DUBSMASH AS PER THEIR CREATIVITY.THIRD ROUND IS CALLED UNICAPURE AND IT IS RELATED TO VIDEOGRAPHY SKILLS.IN THIS PARTICIPANTS (2 IN A GROUP) WILL BE CAPTURING SOME MAGNIFICIENT SCENES FROM AND AROUND THE CAMUPUS TO HIGHLIGHT THEIR IDEAS AND THEME GIVEN.\n" +
@@ -156,7 +156,7 @@ public class MyAdapter_DDigital extends RecyclerView.Adapter<MyAdapter_DDigital.
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic","3");
+                        intent2.putExtra("pic",R.drawable.locationdecrypted);
                         intent2.putExtra("data","Description:\n" +
                                 "This event not only entertain the participants , but also they will be acknowledged with this Encryption-Decryption as this technique is mostly used now-a-days for data security. In this event we are giving some riddles and images to the participants and they have to solve them by using some digital techniques (i.e. software) and in final they have to make an animation video based on the information that what they have collected previously. \n" +
                                 "\n" +
@@ -189,7 +189,7 @@ public class MyAdapter_DDigital extends RecyclerView.Adapter<MyAdapter_DDigital.
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.madadzzz);
                         intent3.putExtra("data","Description:\n" +
                                 "The first round is quiz and tagline competiton followed by second round in which name, logo and tagline is to be designed for a particular product given. The third round is to make a video on the product given.\n" +
                                 "\n" +

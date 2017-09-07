@@ -15,24 +15,39 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:src="@drawable/ac"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@android:color/white" />
     <TextView
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="12sp"
+        android:gravity="center|center_vertical"
         android:textSize="22sp"
         android:textColor="#fff"
         android:text="DEVELOPERS" />
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_marginEnd="110dp"
-            android:layout_marginLeft="110dp"
-            android:layout_marginRight="110dp"
-            android:layout_marginStart="110dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="6dp"
-            android:background="@android:color/white" />
+            android:background="@android:color/white"
+            android:layout_marginBottom="8dp"/>
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
@@ -43,7 +58,7 @@
     <de.hdodenhof.circleimageview.CircleImageView
     android:layout_width="120dp"
     android:layout_height="120dp"
-    android:layout_marginTop="6sp"
+    android:layout_marginTop="8dp"
     android:src="@drawable/rishab"
     app:civ_border_color="#FFFFFF"
     app:civ_border_width="2dp" />
@@ -61,7 +76,8 @@
         android:layout_marginTop="12sp"
         android:textSize="18sp"
         android:textColor="#fff"
-        android:text="Risabh Mishra" />
+        android:text="Risabh Mishra"
+        android:textStyle="bold"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -91,7 +107,7 @@
             <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:layout_marginTop="6sp"
+            android:layout_marginTop="8dp"
             android:src="@drawable/arko"
             app:civ_border_color="#FFFFFF"
             app:civ_border_width="2dp" />
@@ -110,7 +126,8 @@
                 android:layout_marginTop="12sp"
                 android:textSize="18sp"
                 android:textColor="#fff"
-                android:text="Arko Chatterjee" />
+                android:text="Arko Chatterjee"
+                    android:textStyle="bold"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -143,7 +160,7 @@
             android:id="@+id/logo"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:layout_marginTop="6sp"
+            android:layout_marginTop="8dp"
             android:src="@drawable/sarthak"
             app:civ_border_color="#FFFFFF"
             app:civ_border_width="2dp" />
@@ -156,16 +173,15 @@
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginStart="@dimen/activity_horizontal_margin">
                 <TextView
-                android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_marginTop="12sp"
                 android:textSize="18sp"
                 android:textColor="#fff"
-                android:text="Sarthak Kumar" />
+                android:text="Sarthak Kumar"
+                    android:textStyle="bold"/>
                 <TextView
-                    android:id="@+id/textView8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -177,19 +193,58 @@
             </LinearLayout>
             </LinearLayout>
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="6dp"
-        android:background="@android:color/white" />
-
-        <ImageView
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="150sp"
-            android:src="@drawable/ac"/>
+            android:layout_height="1dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:background="@android:color/white"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/abhiprae"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin">
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="12sp"
+                    android:textSize="18sp"
+                    android:textColor="#fff"
+                    android:text="Abhiprae Choudhury"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="2sp"
+                    android:textSize="16sp"
+                    android:textColor="#fff"
+                    android:text="Information Technology"
+                    android:typeface="monospace"/>
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

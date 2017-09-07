@@ -72,7 +72,7 @@ public class MyAdapter_DYud extends RecyclerView.Adapter<MyAdapter_DYud.MyViewHo
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(),test_activity.class);
-                        intent.putExtra("pic","1");
+                        intent.putExtra("pic",R.drawable.appocasm);
                         intent.putExtra("data","Description:\n" +
                                 "As the name speaks APPOCASM is basically an enthusiasm for making Mobile Applications. This event welcome not only those who are hardcode app developers but also those who want to expedition in app development for the very first time. So all you App freaks, its your chance to showcase what you possess on a national level platform. The participants can come individually or as a team of 2.\n" +
                                 "\n" +
@@ -114,7 +114,7 @@ public class MyAdapter_DYud extends RecyclerView.Adapter<MyAdapter_DYud.MyViewHo
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic","2");
+                        intent1.putExtra("pic",R.drawable.geekcipher);
                         intent1.putExtra("data","Description:\n" +
                                 "If mystery solving gives you kick or you find decrypting the encrypted then GEEK-CIPHER is definitely the place where you should be found. Come, Showcase your Sherlockism and enhance your Cipher skills. The participants can come individually or as a team of 2.\n" +
                                 "\n" +
@@ -138,7 +138,7 @@ public class MyAdapter_DYud extends RecyclerView.Adapter<MyAdapter_DYud.MyViewHo
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic","3");
+                        intent2.putExtra("pic",R.drawable.webtrap);
                         intent2.putExtra("data","Description:\n" +
                                 "We have been using web pages since quiet a time now, and this is something which fascinates you then this is your place where you can prove your skills set. The participants can come individually or as a team of 2.\n" +
                                 "\n" +
@@ -168,7 +168,7 @@ public class MyAdapter_DYud extends RecyclerView.Adapter<MyAdapter_DYud.MyViewHo
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.codeearth);
                         intent3.putExtra("data","Description:\n" +
                                 "Coding is the new swag and what better way to pamper it with Hacker Earth. All you coders its an open challenge to COME,CODE and COMPILE. The participants can come as a team of 2.\n" +
                                 "\n" +

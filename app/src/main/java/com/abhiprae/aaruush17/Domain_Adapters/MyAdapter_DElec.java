@@ -72,7 +72,7 @@ public class MyAdapter_DElec extends RecyclerView.Adapter<MyAdapter_DElec.MyView
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(),test_activity.class);
-                        intent.putExtra("pic","1");
+                        intent.putExtra("pic",R.drawable.electracode);
                         intent.putExtra("data","Description:\n" +
                                 "Electra-code is an event under the domain “ELECTRIZITE” in AARUUSH’17.This event gives a basic knowledge to the participants of electrical and coding stuff. It also gives the participants an idea of microprocessors and micro-controllers and also to implement it practically. This event consists of four rounds. The participants will be promoted to the successive rounds depending upon the points they gain in each round.\n" +
                                 "\n" +
@@ -107,7 +107,7 @@ public class MyAdapter_DElec extends RecyclerView.Adapter<MyAdapter_DElec.MyView
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic","2");
+                        intent1.putExtra("pic",R.drawable.digitronics);
                         intent1.putExtra("data","Description:\n" +
                                 "This event is completely based on digital electronics circuits and their various applications. Digital electronics circuits are circuits which operates on discrete digital values rather than continuous analog signals. This event will judge the participant’s understanding of digital electronics and its various applications. As the event will progress the difficulty levels of the rounds will increase. Event will judge the participants technical skills as well as ability to complete a time bound task. \n" +
                                 "\n" +
@@ -145,7 +145,7 @@ public class MyAdapter_DElec extends RecyclerView.Adapter<MyAdapter_DElec.MyView
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic","3");
+                        intent2.putExtra("pic",R.drawable.electrobuzz);
                         intent2.putExtra("data","Description:\n" +
                                 "Objective: To grasp a general idea about the concepts on which the events are to be based and give a direction to the functioning of the domains henceforth.\n" +
                                 "\n" +
@@ -181,7 +181,7 @@ public class MyAdapter_DElec extends RecyclerView.Adapter<MyAdapter_DElec.MyView
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.electromania);
                         intent3.putExtra("data","Description:\n" +
                                 "hey!!! Do u find electric circuits mesmerizing...dnt wry deres nothing wrong with dat...coz we are here to appreciate ur talents and give u a chance to discover ur true selves... Because we believe in electromania!!!\n" +
                                 "\n" +

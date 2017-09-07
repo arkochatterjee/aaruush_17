@@ -33,14 +33,15 @@ public class highlights_fragment extends Fragment {
 
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Comedy Nite"));
-        tabLayout.addTab(tabLayout.newTab().setText("Live in Concert"));
-        tabLayout.addTab(tabLayout.newTab().setText("Movie Nite"));
-        tabLayout.addTab(tabLayout.newTab().setText("Proshows"));
-        tabLayout.addTab(tabLayout.newTab().setText("Guest Lectures"));
-        tabLayout.addTab(tabLayout.newTab().setText("Expos"));
-        tabLayout.addTab(tabLayout.newTab().setText("Industrial Conclave"));
-        tabLayout.addTab(tabLayout.newTab().setText("Unconference"));
-        tabLayout.addTab(tabLayout.newTab().setText("Make in India Summit"));
+        //tabLayout.addTab(tabLayout.newTab().setText("Live in Concert"));
+        //tabLayout.addTab(tabLayout.newTab().setText("Movie Nite"));
+        tabLayout.addTab(tabLayout.newTab().setText("Musical Nite"));
+        //tabLayout.addTab(tabLayout.newTab().setText("Guest Lectures"));
+        //tabLayout.addTab(tabLayout.newTab().setText("Expos"));
+        //tabLayout.addTab(tabLayout.newTab().setText("Industrial Conclave"));
+        //tabLayout.addTab(tabLayout.newTab().setText("Unconference"));
+        //tabLayout.addTab(tabLayout.newTab().setText("Make in India Summit"));
+
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
 
@@ -91,8 +92,8 @@ public class highlights_fragment extends Fragment {
                 case 0:
                     return new HL_ComedyNite_Fragment();
                 case 1:
-                    return new FragmentTab_Highlights_GuestLectures();
-                case 2:
+                    return new HL_MusicalNite_Fragment();
+                /*case 2:
                     return new FragmentTab_Highlights_GuestLectures();
                 case 3:
                     return new FragmentTab_Highlights_GuestLectures();
@@ -107,7 +108,7 @@ public class highlights_fragment extends Fragment {
                     return new FragmentTab_Highlights_GuestLectures();
                 case 8:
                     return new FragmentTab_Highlights_GuestLectures();
-
+*/
                 default:
                     return null;
             }

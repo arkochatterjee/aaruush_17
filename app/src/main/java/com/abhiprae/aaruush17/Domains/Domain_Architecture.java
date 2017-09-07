@@ -28,7 +28,7 @@ public class Domain_Architecture extends Fragment {
         View view = inflater.inflate(R.layout.fragment_tab, container, false);
 
         ((MainActivity) getActivity()).setOnBackPressedListener(new BaseBackPressedListener(getActivity()));
-        ((TextView) view.findViewById(R.id.domain_des)).setText("Games don't die,they respawn!");
+        ((TextView) view.findViewById(R.id.domain_des)).setText("Think | Plan | Build ");
 
 
         RecyclerView rv = (RecyclerView) view.findViewById(R.id.rv_recycler_view);

@@ -72,7 +72,7 @@ public class MyAdapter_DVimaz extends RecyclerView.Adapter<MyAdapter_DVimaz.MyVi
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(),test_activity.class);
-                        intent.putExtra("pic","1");
+                        intent.putExtra("pic",R.drawable.aerovision);
                         intent.putExtra("data","Description:\n" +
                                 "With a vision to reach greater milestones, we are back with Aerovision Vol.2! So, pull up your socks and get ready to test and fly your own glider...\n" +
                                 "Soar your adrenaline to the extreme limit as you fly past a set of four different rounds from solving puzzles to designing your own airplane. One with the most awesome flyer shall win with flying colours!\n" +
@@ -108,7 +108,7 @@ public class MyAdapter_DVimaz extends RecyclerView.Adapter<MyAdapter_DVimaz.MyVi
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic","2");
+                        intent1.putExtra("pic",R.drawable.starfighters);
                         intent1.putExtra("data","Description:\n" +
                                 "Welcome to your cockpit captain! You are now to undergo training to avenge your troops by battling the rebel forces. Find out the mystery lurking within each of their deaths and report to the headquarters immediately.\n" +
                                 "\n" +
@@ -142,7 +142,7 @@ public class MyAdapter_DVimaz extends RecyclerView.Adapter<MyAdapter_DVimaz.MyVi
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic","3");
+                        intent2.putExtra("pic",R.drawable.cityofstars);
                         intent2.putExtra("data","Description:\n" +
                                 "“The strongest affection and utmost zeal should, I think, promote the studies concerned with the most beautiful objects. This is the discipline that deals with the universe's divine revolutions, the stars motions, sizes, distances, risings and settings . . . for what is more beautiful than heaven?”\n" +
                                 "-Nicolaus Copernicus, Astronomer\n" +
@@ -178,7 +178,7 @@ public class MyAdapter_DVimaz extends RecyclerView.Adapter<MyAdapter_DVimaz.MyVi
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.atrekkersguide);
                         intent3.putExtra("data","No Description");
                         view.getContext().startActivity(intent3);
                         break;

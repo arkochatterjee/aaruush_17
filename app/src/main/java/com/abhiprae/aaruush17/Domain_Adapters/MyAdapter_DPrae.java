@@ -72,7 +72,7 @@ public class MyAdapter_DPrae extends RecyclerView.Adapter<MyAdapter_DPrae.MyView
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(),test_activity.class);
-                        intent.putExtra("pic","1");
+                        intent.putExtra("pic",R.drawable.paperpresentation);
                         intent.putExtra("data","Description:\n" +
                                 "\n" +
                                 "\n" +
@@ -100,7 +100,7 @@ public class MyAdapter_DPrae extends RecyclerView.Adapter<MyAdapter_DPrae.MyView
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic","2");
+                        intent1.putExtra("pic",R.drawable.expresso);
                         intent1.putExtra("data","Description:\n" +
                                 "\n" +
                                 "\n" +
@@ -131,7 +131,7 @@ public class MyAdapter_DPrae extends RecyclerView.Adapter<MyAdapter_DPrae.MyView
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic","3");
+                        intent2.putExtra("pic",R.drawable.fandom);
                         intent2.putExtra("data","Description:\n" +
                                 "\n" +
                                 "\n" +
@@ -159,7 +159,7 @@ public class MyAdapter_DPrae extends RecyclerView.Adapter<MyAdapter_DPrae.MyView
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.modinomics);
                         intent3.putExtra("data","Description:\n" +
                                 "\n" +
                                 "\n" +

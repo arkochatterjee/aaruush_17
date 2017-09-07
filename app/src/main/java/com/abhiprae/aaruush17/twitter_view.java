@@ -18,7 +18,7 @@ public class twitter_view extends Fragment {
 
     private static final String baseURl = "https://twitter.com";
 
-    private static final String widgetInfo = "<a class=\"twitter-timeline\" href=\"https://twitter.com/Aaruush_Srmuniv\">Tweets by Aaruush_Srmuniv</a> <script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>";
+    private static final String widgetInfo = "<a class=\"twitter-timeline\" href=\"https://twitter.com/Aaruush_Srmuniv\">Please check your internet connection..</a> <script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>";
 
     View v;
 

@@ -72,7 +72,7 @@ public class MyAdapter_DXZone extends RecyclerView.Adapter<MyAdapter_DXZone.MyVi
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(), test_activity.class);
-                        intent.putExtra("pic", "1");
+                        intent.putExtra("pic", R.drawable.breakingbad);
                         intent.putExtra("data", "Theme:\n" +
                                 "This event is for those Sharp and Logical Ones in the house and those who believe they have Some Good luck in their pockets. Its for those who can solve puzzles and riddles real quick.\n" +
                                 "\n" +
@@ -106,7 +106,7 @@ public class MyAdapter_DXZone extends RecyclerView.Adapter<MyAdapter_DXZone.MyVi
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic", "2");
+                        intent1.putExtra("pic", R.drawable.casinomania);
                         intent1.putExtra("data", "EVENT DESCRIPTION:-\n" +
                                 "\n" +
                                 "1. Firstly all the participants will be given a packet of chips worth 10000 bucks.\n" +
@@ -128,7 +128,7 @@ public class MyAdapter_DXZone extends RecyclerView.Adapter<MyAdapter_DXZone.MyVi
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic", "3");
+                        intent2.putExtra("pic", R.drawable.crypticcrack);
                         intent2.putExtra("data", "Theme:- Cracking the clues with events\n" +
                                 "\n" +
                                 "Description:\n" +
@@ -156,7 +156,7 @@ public class MyAdapter_DXZone extends RecyclerView.Adapter<MyAdapter_DXZone.MyVi
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.fantasticbeasts);
                         intent3.putExtra("data","Theme:-\n" +
                                 "Physical exertion and the ability of participants to tackle hurdles and obstacles better.\n" +
                                 "\n" +

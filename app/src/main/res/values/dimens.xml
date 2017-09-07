@@ -13,8 +13,8 @@
     <dimen name="txt16">16sp</dimen>
     <dimen name="txt22">22sp</dimen>
     <dimen name="txt30">30sp</dimen>
-    <dimen name="btn_height">50dp</dimen>
-    <dimen name="btn_width">250dp</dimen>
+    <dimen name="btn_height">44dp</dimen>
+    <dimen name="btn_width">220dp</dimen>
     <dimen name="field_padding">46dp</dimen>
 
 </resources>

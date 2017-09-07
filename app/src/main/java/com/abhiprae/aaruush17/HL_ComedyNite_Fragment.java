@@ -32,7 +32,15 @@ public class HL_ComedyNite_Fragment extends android.support.v4.app.Fragment {
         //text.setTypeface(typeface2);
         text1.setTypeface(typeface1);
 
-        text.setText("Comedy Night with Zakir Zhan");
+        text.setText("Comedy Night with Zakir Zhan\n\n" +
+                "A cartoon by heart, comedian by nature, a writer by profession and performer by " +
+                "birth, Zakir is the winner of Comedy Central's hunt for ‘Best Stand Up Comic of " +
+                "India’. His name is Khan (from the epiglottis) but he is certainly not a terrorist.\n" +
+                "This 'Confused Desi' serves up his take on modern India with a hard-to-resist " +
+                "rustic humor that'll have you nodding your heads and clapping as you relate to " +
+                "everything he says. He can smoothly switch modes for an audience full of family " +
+                "members, a corporate crowd or a room full of men . Each show will know him as a " +
+                "different Zakir .");
 
         //text1.setText("September 16th and 17th | Price : Rs.5600 for 4");
 

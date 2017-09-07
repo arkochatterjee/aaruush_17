@@ -72,7 +72,7 @@ public class MyAdapter_DFundaz extends RecyclerView.Adapter<MyAdapter_DFundaz.My
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(), test_activity.class);
-                        intent.putExtra("pic", "1");
+                        intent.putExtra("pic", R.drawable.states4);
                         intent.putExtra("data", "Description:\n" +
                                 "Missing your home? We all do! Being away from one's own place is something very tough to pull off. That's why we aim at bringing you closer to your place!4 states is an event which intends to exploit the intense cultural diversity and it's melange of innumerable attributes. Indulge yourself on a journey which gives you an insight into different flavours, cultural aspects, places and people and geological wonders of the country. Let's see if you have what it takes to be called a true Indian in its truest senses !\n" +
                                 "\n" +
@@ -112,7 +112,7 @@ public class MyAdapter_DFundaz extends RecyclerView.Adapter<MyAdapter_DFundaz.My
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic", "2");
+                        intent1.putExtra("pic", R.drawable.cid);
                         intent1.putExtra("data", "Description:\n" +
                                 "There's a scarlet thread of murder running through the colorless skein of life, the police are baffled by the crime and its circumstances. Only the dead are above suspicion. Have you ever wanted to experience what Sherlock Holmes goes through when he's solving a case? Then CID is right where you belong! So, put on your coats, buckle up your belts and step into the shoes of a detective who will stop at nothing to save the city. Investigate intriguing crime cases and uncover a tragic tale of love and deadly revenge in this event, which will test both, the logical and analytical parts of your brain. \n" +
                                 "\n" +
@@ -154,7 +154,7 @@ public class MyAdapter_DFundaz extends RecyclerView.Adapter<MyAdapter_DFundaz.My
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic", "3");
+                        intent2.putExtra("pic", R.drawable.icefire);
                         intent2.putExtra("data", "Theme: \n" +
                                 "Game of Thrones\n" +
                                 "Description:\n" +
@@ -189,7 +189,7 @@ public class MyAdapter_DFundaz extends RecyclerView.Adapter<MyAdapter_DFundaz.My
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.pottermania);
                         intent3.putExtra("data","Theme: \n" +
                                 "Part 5, 6, 7 and 8 of the Harry Potter Series\n" +
                                 "Description:\n" +

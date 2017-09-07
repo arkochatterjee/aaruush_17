@@ -100,7 +100,7 @@ public class Home_zero extends Fragment {
                     SimpleDateFormat dateFormat = new SimpleDateFormat(
                             "dd-MM-yyyy hh:mm:ss");
 // Please here set your event date//YYYY-MM-DD
-                    Date futureDate = dateFormat.parse("16-09-2017 09:00:00");
+                    Date futureDate = dateFormat.parse("15-09-2017 15:00:00");
                     Date currentDate = new Date();
                     if (!currentDate.after(futureDate)) {
                         long diff = futureDate.getTime()
@@ -138,7 +138,6 @@ public class Home_zero extends Fragment {
             super(fm);
             this.mNumOfTabs = NumOfTabs;
         }
-
         @Override
         public Fragment getItem(int position) {
 
@@ -153,11 +152,11 @@ public class Home_zero extends Fragment {
                     return null;
             }
         }
-
         @Override
         public int getCount() {
             return mNumOfTabs;
         }
+
     }
 
 }

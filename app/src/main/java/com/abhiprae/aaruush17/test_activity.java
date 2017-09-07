@@ -30,19 +30,21 @@ public class test_activity extends AppCompatActivity {
         Intent intent = getIntent();
 
         String fName = intent.getStringExtra("data");
-        String img =intent.getStringExtra("pic");
-        int im =Integer.parseInt(img);
+        int img = intent.getIntExtra("pic",0);
         text.setText(fName);
 
       //  text.setText("At RoboWars, contestants will have to create a brand, design and create and working robot to tackle real life solutions. Aaruush provides a national level stage to showcase your skills.");
         //  text1.setText("August 19th | Price : Rs.250");
-        switch (im)
+        switch (img)
         {
-            case 1:
+            case 0:
+                break;
+            default :
                 ImageView i = (ImageView) findViewById(R.id.imageView2);
-                Drawable drawable = getResources().getDrawable(R.drawable.robo);
 
-                i.setImageDrawable(drawable);
+                //Drawable drawable = getResources().getDrawable(img);
+                //i.setImageDrawable(drawable);
+                i.setImageResource(img);
                 break;
 
         }

@@ -72,7 +72,7 @@ public class MyAdapter_DMag extends RecyclerView.Adapter<MyAdapter_DMag.MyViewHo
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(), test_activity.class);
-                        intent.putExtra("pic", "1");
+                        intent.putExtra("pic", R.drawable.theindianeye);
                         intent.putExtra("data", "Rounds:\n" +
                                 "\n" +
                                 "Round 1:The participants will be given different foreign products that are being sold in the Indian market. They will have to come up with an Indian tagline for the same product that they will be given.\n" +
@@ -102,7 +102,7 @@ public class MyAdapter_DMag extends RecyclerView.Adapter<MyAdapter_DMag.MyViewHo
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic", "2");
+                        intent1.putExtra("pic", R.drawable.hiredorfired);
                         intent1.putExtra("data", "Rounds:\n" +
                                 "\n" +
                                 "Round 1: For your Eyes Only\n" +
@@ -132,7 +132,7 @@ public class MyAdapter_DMag extends RecyclerView.Adapter<MyAdapter_DMag.MyViewHo
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic", "3");
+                        intent2.putExtra("pic", R.drawable.manwithaplan);
                         intent2.putExtra("data", "Theme:\n" +
                                 "\n" +
                                 "Stock Market, entrepreneurship, ethical values of business.Rounds:\n" +
@@ -165,7 +165,7 @@ public class MyAdapter_DMag extends RecyclerView.Adapter<MyAdapter_DMag.MyViewHo
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.apl);
                         intent3.putExtra("data","Theme:\n" +
                                 "\n" +
                                 "Stock Market, entrepreneurship, ethical values of business.Rounds:\n" +

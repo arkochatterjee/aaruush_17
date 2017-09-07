@@ -72,7 +72,7 @@ public class MyAdapter_Blue extends RecyclerView.Adapter<MyAdapter_Blue.MyViewHo
                         // view.getContext().startActivity(intent);
 
                         Intent intent = new Intent(view.getContext(), test_activity.class);
-                        intent.putExtra("pic", "1");
+                        intent.putExtra("pic", R.drawable.event_greysmd);
                         intent.putExtra("data", "Description:\n" +
                                 "Like House M.D or Grey's Anatomy? Then look no further. Grey's M.D is here for you. Bring out your inner doctor. Diagnostically climb to the top and claim the prize.\n" +
                                 "Rounds:\n" +
@@ -100,7 +100,7 @@ public class MyAdapter_Blue extends RecyclerView.Adapter<MyAdapter_Blue.MyViewHo
                         break;
                     case 1:
                         Intent intent1 = new Intent(view.getContext(), test_activity.class);
-                        intent1.putExtra("pic", "2");
+                        intent1.putExtra("pic", R.drawable.event_221b);
                         intent1.putExtra("data", "Description:\n" +
                                 "Fancy yourself as a high functioning sociopath? Come and join us on journey that will ultimately test your intelligence. After all, what's the point in being clever if you can't prove it?\n" +
                                 "Rounds:\n" +
@@ -129,7 +129,7 @@ public class MyAdapter_Blue extends RecyclerView.Adapter<MyAdapter_Blue.MyViewHo
                         break;
                     case 2:
                         Intent intent2 = new Intent(view.getContext(), test_activity.class);
-                        intent2.putExtra("pic", "3");
+                        intent2.putExtra("pic", R.drawable.event_alchemist);
                         intent2.putExtra("data", "Description:\n" +
                                 "Alchemist is an event based on the basic concepts of chemistry.It has got 4 fun filled rounds which will engross participants towards chemistry.\n" +
                                 "\n" +
@@ -156,7 +156,7 @@ public class MyAdapter_Blue extends RecyclerView.Adapter<MyAdapter_Blue.MyViewHo
                         break;
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
-                        intent3.putExtra("pic", "4");
+                        intent3.putExtra("pic", R.drawable.event_nerviosa);
                         intent3.putExtra("data","Description:\n" +
                                 "This event is based on how your brain works and you will get to know the magic your brain does. This event enlightens you with more connection of brain with your body. As you grow older your brain learns new spells, which may help in controlling your body. As you move through this event you will be more astonished to see the way your brain functions!\n" +
                                 "\n" +
