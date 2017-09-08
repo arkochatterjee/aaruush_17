@@ -41,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
     int permission = 0;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        protected void onCreate(Bundle savedInstanceState) {
+            overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
 
         FontsOverride.setDefaultFont(this, "MONOSPACE", "avenir.otf");
 
