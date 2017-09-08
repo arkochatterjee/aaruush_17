@@ -40,6 +40,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public static final String mypreference = "mypref";
     public static final String Name = "nameKey";
+    public static final String Email = "emailKey";
     public static final String Password = "passKey";
     public final String MYPREF = "AARUUSH";
     EditText email, password;
@@ -62,21 +63,19 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void Save() {
-        String n = email.getText().toString();
-        String p = password.getText().toString();
-
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString(Name, n);
-        editor.putString(Password, p);
+        editor.putString(Name,userR.getName());
+        editor.putString(Password, userR.getPassword());
+        editor.putString(Email, userR.getEmail());
+        editor.putBoolean("session",true);
         editor.apply();
     }
 
     public void Get() {
         sharedPreferences = getSharedPreferences(mypreference,
                 Context.MODE_PRIVATE);
-
-        if (sharedPreferences.contains(Name)) {
-            email.setText(sharedPreferences.getString(Name, ""));
+        if (sharedPreferences.contains(Email)) {
+            email.setText(sharedPreferences.getString(Email, ""));
         }
         if (sharedPreferences.contains(Password)) {
             password.setText(sharedPreferences.getString(Password, ""));
@@ -100,7 +99,6 @@ public class LoginActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = pref.edit();
         editor.putString("first_run", "no");
         editor.apply();
-        Save();
         pd = new ProgressDialog(context);
         pd.setMessage("Please Wait...");
         pd.setTitle("Signing In...");
@@ -192,7 +190,7 @@ public class LoginActivity extends AppCompatActivity {
         protected void onPostExecute(String result) {
             if (result.contains("failed")) {
                 Toast.makeText(getBaseContext(), "Problem in Logging, Try Again!", Toast.LENGTH_SHORT).show();
-                pd.dismiss();
+                    pd.dismiss();
             } else {
                 Log.d("result:----", result);
                 Gson g = new Gson();
@@ -201,13 +199,14 @@ public class LoginActivity extends AppCompatActivity {
                     SharedPreferences.Editor editor = pref.edit();
                     editor.putString("first_run", "no");
                     editor.apply();
+                    Save();
                     Session.setUser(userR);
                     Log.d("-------", Session.getUser().getName());
-                    pd.dismiss();
+                        pd.dismiss();
                     Intent intent = new Intent(context, MainActivity.class);
                     startActivity(intent);
                 } else {
-                    pd.dismiss();
+                        pd.dismiss();
                     Toast.makeText(getBaseContext(), "Server Error, Try Again !", Toast.LENGTH_SHORT).show();
                 }
             }

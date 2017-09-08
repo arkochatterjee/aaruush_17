@@ -37,6 +37,7 @@ public class championship_fragment extends Fragment {
         tabLayout.addTab(tabLayout.newTab().setText("ROBOWARS"));
         tabLayout.addTab(tabLayout.newTab().setText("DEATH DRIFT - RC CARS"));
         tabLayout.addTab(tabLayout.newTab().setText("QUADCOPTER"));
+        tabLayout.addTab(tabLayout.newTab().setText("SHUTTER UP"));
         tabLayout.addTab(tabLayout.newTab().setText("SPORTS"));
 
 
@@ -95,6 +96,8 @@ public class championship_fragment extends Fragment {
                 case 3:
                     return new championship_quadcopter();
                 case 4:
+                    return new championship_shutterup();
+                case 5:
                 return new championships_sports();
 
 

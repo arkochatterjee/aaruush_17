@@ -25,7 +25,7 @@ public class FragmentTab_Highlights_GuestLectures extends Fragment {
         View view = inflater.inflate(R.layout.fragment_tab, container, false);
         RecyclerView rv = (RecyclerView) view.findViewById(R.id.rv_recycler_view);
         rv.setHasFixedSize(true);
-        MyAdapterHighlights adapter = new MyAdapterHighlights(new String[]{"Kenny Sebastian", "The Viral Fever", "Mr.Dilip Chabbaria", "Mr.Ravi Kumduru"});
+        MyAdapterHighlights adapter = new MyAdapterHighlights(new String[]{"Harsh Songra", "Suneet Tuli","Mira Erda","Arjun Vajpai","Benild Joseph"});
         rv.setAdapter(adapter);
 
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());

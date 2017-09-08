@@ -1,4 +1,4 @@
-package com.abhiprae.aaruush17;
+package com.abhiprae.aaruush17.Championships;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -12,13 +12,13 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.abhiprae.aaruush17.R;
 import com.bluejamesbond.text.DocumentView;
 
 /**
- * Created by Arko Chatterjee on 04-09-2017.
- */
-
-public class HL_MusicalNite_Fragment extends android.support.v4.app.Fragment {
+ * Created by sarthak on 8/9/17.
+**/
+public class championship_shutterup extends android.support.v4.app.Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -27,19 +27,17 @@ public class HL_MusicalNite_Fragment extends android.support.v4.app.Fragment {
         View v = inflater.inflate(R.layout.workshop_brainwave, container, false);
         DocumentView text = (DocumentView) v.findViewById(R.id.textView3);
         TextView text1 = (TextView) v.findViewById(R.id.textView4);
-        Typeface typeface1 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/M_R.ttf");
-        Typeface typeface2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/avenir.otf");
-        text1.setTypeface(typeface2);
-
-        text.setText("\nLive Concert with Shirley Shetia\n\n" +
-                "The Indo-Kiwi artist who took YouTube by storm with her vocals. With over 50 million " +
-                "hits and over 1.1 million subscribers on YouTube Shirley is an internet sensation.\n" +
-                "She has stormed her way to Bollywood with her debut dance track \"Disco Disco\" and is ready to mesmerize us with her signing!");
-
-        text1.setText("\nFor more info visit your nearest Aaruush Helpdesk");
+        Typeface typeface1 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/avenir.otf");
+        //text.setTypeface(typeface2);
+        text1.setTypeface(typeface1);
+        text.setText("\n" +
+                "All the world's a stage! And the audience of the 21st century eagerly awaits behind the screen. Flaunt your skills in the world of cinematography." +
+                " Portray the world as we know it from your view! Amaze the spectator and earn your deserved reward for it, here at Aaruush.");
+        // text1.setText("September 16th and 17th | Price : Rs.1200");
 
         ImageView i = (ImageView) v.findViewById(R.id.imageView2);
-        Drawable drawable = getResources().getDrawable(R.drawable.shirleysetiaapp);
+        Drawable drawable = getResources().getDrawable(R.drawable.shutter_up_app);
+        i.setImageDrawable(drawable);
         i.setImageDrawable(drawable);
         Button button = (Button) v.findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -50,7 +48,6 @@ public class HL_MusicalNite_Fragment extends android.support.v4.app.Fragment {
                 startActivity(intent);
             }
         });
-        button.setVisibility(View.GONE);
         return v;
     }
 }

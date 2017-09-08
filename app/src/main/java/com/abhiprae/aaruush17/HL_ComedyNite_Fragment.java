@@ -27,9 +27,7 @@ public class HL_ComedyNite_Fragment extends android.support.v4.app.Fragment {
         View v = inflater.inflate(R.layout.workshop_brainwave, container, false);
         DocumentView text = (DocumentView) v.findViewById(R.id.textView3);
         TextView text1 = (TextView) v.findViewById(R.id.textView4);
-        Typeface typeface1 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/M_R.ttf");
-        Typeface typeface2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/helvatika.ttf");
-        //text.setTypeface(typeface2);
+        Typeface typeface1 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/avenir.otf");
         text1.setTypeface(typeface1);
 
         text.setText("Comedy Night with Zakir Zhan\n\n" +
@@ -42,7 +40,7 @@ public class HL_ComedyNite_Fragment extends android.support.v4.app.Fragment {
                 "members, a corporate crowd or a room full of men . Each show will know him as a " +
                 "different Zakir .");
 
-        //text1.setText("September 16th and 17th | Price : Rs.5600 for 4");
+        text1.setText("\nFor more info visit your nearest Aaruush Helpdesk");
 
         ImageView i = (ImageView) v.findViewById(R.id.imageView2);
         Drawable drawable = getResources().getDrawable(R.drawable.zk);
@@ -56,6 +54,7 @@ public class HL_ComedyNite_Fragment extends android.support.v4.app.Fragment {
                 startActivity(intent);
             }
         });
+        button.setVisibility(View.GONE);
         return v;
     }
 }

@@ -33,10 +33,10 @@ public class highlights_fragment extends Fragment {
 
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Comedy Nite"));
-        //tabLayout.addTab(tabLayout.newTab().setText("Live in Concert"));
         //tabLayout.addTab(tabLayout.newTab().setText("Movie Nite"));
-        tabLayout.addTab(tabLayout.newTab().setText("Musical Nite"));
-        //tabLayout.addTab(tabLayout.newTab().setText("Guest Lectures"));
+        tabLayout.addTab(tabLayout.newTab().setText("Live in Concert"));
+        tabLayout.addTab(tabLayout.newTab().setText("Proshow"));
+        tabLayout.addTab(tabLayout.newTab().setText("Guest Lectures"));
         //tabLayout.addTab(tabLayout.newTab().setText("Expos"));
         //tabLayout.addTab(tabLayout.newTab().setText("Industrial Conclave"));
         //tabLayout.addTab(tabLayout.newTab().setText("Unconference"));
@@ -93,11 +93,11 @@ public class highlights_fragment extends Fragment {
                     return new HL_ComedyNite_Fragment();
                 case 1:
                     return new HL_MusicalNite_Fragment();
-                /*case 2:
-                    return new FragmentTab_Highlights_GuestLectures();
+                case 2:
+                    return new HL_proshows_fragment();
                 case 3:
                     return new FragmentTab_Highlights_GuestLectures();
-                case 4:
+                /*case 4:
                     return new FragmentTab_Highlights_GuestLectures();
 
                 case 5:

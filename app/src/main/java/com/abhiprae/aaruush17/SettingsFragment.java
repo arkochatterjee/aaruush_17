@@ -1,5 +1,6 @@
 package com.abhiprae.aaruush17;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,6 +11,9 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import static android.content.Context.MODE_PRIVATE;
+import static com.abhiprae.aaruush17.LoginActivity.Name;
+import static com.abhiprae.aaruush17.LoginActivity.Password;
+import static com.abhiprae.aaruush17.LoginActivity.mypreference;
 
 //import com.theartofdev.edmodo.cropper.CropImage;
 //import com.theartofdev.edmodo.cropper.CropImageView;
@@ -76,7 +80,7 @@ public class SettingsFragment extends Fragment {
                 pref = getActivity().getSharedPreferences(MYPREF, MODE_PRIVATE);
                 SharedPreferences.Editor editor = pref.edit();
                 editor.putString("first_run", "yes");
-                editor.commit();
+                editor.apply();
                 sendtostart();
             }
         });
