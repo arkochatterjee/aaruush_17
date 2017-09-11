@@ -179,7 +179,29 @@ public class MyAdapter_DVimaz extends RecyclerView.Adapter<MyAdapter_DVimaz.MyVi
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
                         intent3.putExtra("pic", R.drawable.atrekkersguide);
-                        intent3.putExtra("data","No Description");
+                        intent3.putExtra("data","\n" +
+                                "A Trekker’s Guide to the Galaxy\n" +
+                                "\n" +
+                                "Take on an interstellar adventure aboard your space exploration vessel and " +
+                                "carry out a mission for the legendary interstellar federal republic, United " +
+                                "Federation of Planets. Join your crew as you face the countless dangers and " +
+                                "perils that are offered to you by space, the final frontier, as you live through " +
+                                "the cult phenomenon, that is called, Star Trek. Live long and prosper.\n" +
+                                "\n" +
+                                "Astro Belt-\n" +
+                                "Chart your course through a cluster of asteroids to complete a crossword in a " +
+                                "race against time \n" +
+                                "\n" +
+                                "The Vulcan Exchange-\n" +
+                                "Fix your stranded ship by acquiring the necessary resources in the highly " +
+                                "diverse Vulcan Bazaar\n" +
+                                "\n" +
+                                "USS Enterprise-\n" +
+                                "Show off your cred by presenting your advanced starship to the warlords of Klingon to siphon off fuel for your ship\n" +
+                                "\n" +
+                                "No Man’s Sky-\n" +
+                                "In the final attempt to make it through your obstacles and finish your assigned " +
+                                "mission in the ship created by you, live the ultimate Star Trek experience\n");
                         view.getContext().startActivity(intent3);
                         break;
 

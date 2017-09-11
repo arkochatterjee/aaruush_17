@@ -49,12 +49,11 @@ public class HL_ComedyNite_Fragment extends android.support.v4.app.Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri uri = Uri.parse("https://www.thecollegefever.com/events/aaruush17");
+                Uri uri = Uri.parse("https://aaruush.eventze.in");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }
         });
-        button.setVisibility(View.GONE);
         return v;
     }
 }

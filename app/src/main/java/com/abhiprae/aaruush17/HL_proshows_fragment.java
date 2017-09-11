@@ -68,7 +68,6 @@ public class HL_proshows_fragment extends android.support.v4.app.Fragment {
             startActivity(intent);
         }
     });
-        button.setVisibility(View.GONE);
         return v;
 }
 }
