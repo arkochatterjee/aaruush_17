@@ -68,9 +68,9 @@ public class TeamFragment extends Fragment {
         patrons.add(new ViewFlipperItem(R.drawable.shruthi, "  Shruti Pandey  ", R.color.green, "  Magefficie & Events, Startups ", "", "  9958824290  "));
         patrons.add(new ViewFlipperItem(R.drawable.sashank, "  B. Sai Sashank  ", R.color.saffron, "  X-Zone, Digital Design, Activities  ", "", "  9962899097  "));
         patrons.add(new ViewFlipperItem(R.drawable.abhiprae, "  Abhiprae Choudhury  ", R.color.green, "  Fundaz and Vimanaz  ", "", "  9919335522  "));
-        patrons.add(new ViewFlipperItem(R.drawable.sanika, "  Sanika Thakar  ", R.color.saffron, "  Robogyan & Robotics Club  ", "", "  8939552319  "));
+        patrons.add(new ViewFlipperItem(R.drawable.sanika, "  Sanika Thakkar  ", R.color.saffron, "  Robogyan & Robotics Club  ", "", "  8939552319  "));
         patrons.add(new ViewFlipperItem(R.drawable.amans, "  Aman Siraj Siddiqui  ", R.color.green, "  Electrzite and Machination ", "", "  9087860876  "));
-        patrons.add(new ViewFlipperItem(R.drawable.amank, "  Aman Kumar  ", R.color.saffron, "  Yudddhame and Online ", "", "  9087860669  "));
+        patrons.add(new ViewFlipperItem(R.drawable.amank, "  Aman Kumar  ", R.color.saffron, "  Yuddhame and Online ", "", "  9087860669  "));
         patrons.add(new ViewFlipperItem(R.drawable.nishanthkonstruktion, "  Nishant Sharma  ", R.color.green, "  Konstruktion and Architecture ", "", "  8939651996  "));
 
 

@@ -73,7 +73,7 @@ public class MyAdapterHighlights extends RecyclerView.Adapter<MyAdapterHighlight
                         // view.getContext().startActivity(intent);
 
                         Intent intent3 = new Intent(view.getContext(), highlights_kenny.class);
-                        intent3.putExtra("pic", R.drawable.suneetguestecture);
+                        intent3.putExtra("pic", R.drawable.suneetguestlecture);
                         intent3.putExtra("data","Suneet Tuli graduated from Toronto University in 1990 in Applied Sciences in Engineering. He is the co-founder of DataWind. His first technological venture had the objective of developing sales of large size fax machines. In his second innovative venture, he started creating battery operated handheld printers and hand held scanners. Tuli has been recognised by Forbes Magazine in its 2012 and recently by Ban ki Moon Secretary General of United Nations, while launching his product Aakash 2 tablets");
                         view.getContext().startActivity(intent3);
                         break;
@@ -84,7 +84,7 @@ public class MyAdapterHighlights extends RecyclerView.Adapter<MyAdapterHighlight
                         // view.getContext().startActivity(intent);
 
                         Intent intent1 = new Intent(view.getContext(), highlights_kenny.class);
-                        intent1.putExtra("pic", R.drawable.miraguestlecture);
+                        intent1.putExtra("pic", R.drawable.miraguestlecturefinalweb);
                         intent1.putExtra("data","Mira Erda, who began her journey as one of the youngest in national karting, had been competing in LGB Formula 4 till last year. She proved herself by winning the Formula 4 Rookie Champion of the Year during the annual FMSCI awards.By signing up at just 17 for JK Euro, which features the BMW FB02 car, she will be among the youngest Indian drivers to race at this level. Interestingly, Mira who is preparing for her Twelfth Class boards, will have a packed season as she plans to not only race in the National Championship but also in national rallies and international karting competitions.");
                         view.getContext().startActivity(intent1);
                         break;
@@ -95,7 +95,7 @@ public class MyAdapterHighlights extends RecyclerView.Adapter<MyAdapterHighlight
                         // view.getContext().startActivity(intent);
 
                         Intent intent2 = new Intent(view.getContext(), highlights_kenny.class);
-                        intent2.putExtra("pic", R.drawable.arjunguestlecturefinal);
+                        intent2.putExtra("pic", R.drawable.arjunguestlecturefinalweb);
                         intent2.putExtra("data","Arjun Vajpai is the third-youngest Indian to climb Mount Everest. He achieved this feat at an age of 16 years, 11 months and 18 days.On 20 May 2011, he became the youngest climber ever to summit Lhotse, aged 17.Arjun also became the youngest to summit Manaslu on 4 October 2011. \n" +
                                 "He did his schooling from Ryan International School, Noida.Since childhood he was fascinated with trekking and mountaineering . He has underwent training in the Nehru Institute of Mountaineering for 2 years.\n");
                         view.getContext().startActivity(intent2);
@@ -108,7 +108,7 @@ public class MyAdapterHighlights extends RecyclerView.Adapter<MyAdapterHighlight
                         // view.getContext().startActivity(intent);
 
                         Intent intent4 = new Intent(view.getContext(), highlights_kenny.class);
-                        intent4.putExtra("pic", R.drawable.benildguestlecture);
+                        intent4.putExtra("pic", R.drawable.benildguestlecturefinalweb);
                         intent4.putExtra("data","Benild Joseph is a 25 year old Limca Book Record Holder and renowned White Hat Hacker with definitive experience in the field of computer security in India. Microsoft Social Forum and Silicon India Magazine have also listed him among the Top 10 Ethical Hackers in India. Benild is working with various corporate companies, law enforcement agencies and government organizations. He is a regular speaker at Information security & digital forensics conferences in India and abroad. He has also worked on various security projects at Cyber Crime Investigation Bureau (CCIB), International Cyber Threat Task Force (CTTF) and Cyber Security Forum Initiative (CSFI ). He is the co-author of “CCI” a book written for law enforcement agencies in India. His research interests include Internet Security, Data Forensic, Virtualization and Mobile Security. He has been interviewed by Various Newspapers and TV Channels where he has shared his experiences relating to cyber attacks, latest vulnerabilities and cyber crimes.\n");
                         view.getContext().startActivity(intent4);
                         break;

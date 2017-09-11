@@ -255,6 +255,11 @@ public class MainActivity extends AppCompatActivity {
         actionBarDrawerToggle.syncState();
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+
     public void setOnBackPressedListener(OnBackPressedListener onBackPressedListener) {
         this.onBackPressedListener = onBackPressedListener;
     }

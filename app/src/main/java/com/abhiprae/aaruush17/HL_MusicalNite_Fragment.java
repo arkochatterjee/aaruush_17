@@ -39,7 +39,7 @@ public class HL_MusicalNite_Fragment extends android.support.v4.app.Fragment {
         text1.setText("\nFor more info visit your nearest Aaruush Helpdesk");
 
         ImageView i = (ImageView) v.findViewById(R.id.imageView2);
-        Drawable drawable = getResources().getDrawable(R.drawable.shirleysetiaapp);
+        Drawable drawable = getResources().getDrawable(R.drawable.shirleyshetiaapp);
         i.setImageDrawable(drawable);
         Button button = (Button) v.findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {

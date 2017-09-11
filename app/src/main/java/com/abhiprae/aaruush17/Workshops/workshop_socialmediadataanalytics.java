@@ -33,7 +33,7 @@ public class workshop_socialmediadataanalytics extends android.support.v4.app.Fr
         //text.setTypeface(typeface2);
         text1.setTypeface(typeface1);
         text.setText("The workshop is to engage participant to analyse huge amounts of data which is being generated. The analysis is done in the field of Social Media with the help of datasets and basic concepts of Big Data");
-        text1.setText("September 16th and 17th | Price : Rs.5600 for 4");
+        text1.setText("September 18th and 19th | Price : Rs.1200 per head");
 
         ImageView i = (ImageView) v.findViewById(R.id.imageView2);
         Drawable drawable = getResources().getDrawable(R.drawable.app_social);

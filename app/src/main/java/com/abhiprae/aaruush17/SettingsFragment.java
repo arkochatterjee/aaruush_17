@@ -4,11 +4,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+
+import com.google.firebase.database.DatabaseReference;
 
 import static android.content.Context.MODE_PRIVATE;
 import static com.abhiprae.aaruush17.LoginActivity.Name;
@@ -25,7 +28,7 @@ import static com.abhiprae.aaruush17.LoginActivity.mypreference;
 public class SettingsFragment extends Fragment {
     public final String MYPREF = "AARUUSH";
     SharedPreferences pref;
-
+    DatabaseHelper db;
     public SettingsFragment() {
         // Required empty public constructor
     }
@@ -81,6 +84,10 @@ public class SettingsFragment extends Fragment {
                 SharedPreferences.Editor editor = pref.edit();
                 editor.putString("first_run", "yes");
                 editor.apply();
+                db = new DatabaseHelper(getContext());
+                db.deleteContact();
+                db.closeDB();
+                System.exit(0);
                 sendtostart();
             }
         });

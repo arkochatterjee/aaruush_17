@@ -28,6 +28,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 import Model.Session;
 import Model.User;
@@ -49,6 +50,8 @@ public class LoginActivity extends AppCompatActivity {
     Context context;
     SharedPreferences pref;
     SharedPreferences sharedPreferences;
+    DatabaseHelper db;
+    ArrayList<User> users;
 
     private static String convertInputStreamToString(InputStream inputStream) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -74,6 +77,14 @@ public class LoginActivity extends AppCompatActivity {
     public void Get() {
         sharedPreferences = getSharedPreferences(mypreference,
                 Context.MODE_PRIVATE);
+        db = new DatabaseHelper(getApplicationContext());
+        users = db.getUser();
+            if(!users.isEmpty()) {
+                userS = users.get(0);
+                Session.setUser(userS);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
         if (sharedPreferences.contains(Email)) {
             email.setText(sharedPreferences.getString(Email, ""));
         }
@@ -200,6 +211,9 @@ public class LoginActivity extends AppCompatActivity {
                     editor.putString("first_run", "no");
                     editor.apply();
                     Save();
+                    db = new DatabaseHelper(getApplicationContext());
+                    db.deleteContact();
+                    db.createUser(userR);
                     Session.setUser(userR);
                     Log.d("-------", Session.getUser().getName());
                         pd.dismiss();
