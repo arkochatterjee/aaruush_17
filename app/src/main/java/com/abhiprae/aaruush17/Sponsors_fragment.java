@@ -62,8 +62,8 @@ public class Sponsors_fragment extends Fragment {
         sponsors.add(new Sponsor(R.drawable.sponsor_nikon_coverage_partner,"Coverage Partner","NIKON"));
         sponsors.add(new Sponsor(R.drawable.sponsor_xquizit_quiz_partner,"XQuizIt","Quiz Partner"));
         sponsors.add(new Sponsor(R.drawable.sponsor_deepak_enterprises_konstruction_partner,"Konstruction Partner","Deepak Enterprises"));
-        sponsors.add(new Sponsor(R.drawable.sponsor_a_t_mandal_sons_machination_partner,"Machination Partner","A T Mandal & Sons"));
-        sponsors.add(new Sponsor(R.drawable.sponsor_paytm_travel_partner,"Travel Partner","PAYTM"));
+        //sponsors.add(new Sponsor(R.drawable.sponsor_a_t_mandal_sons_machination_partner,"Machination Partner","A T Mandal & Sons"));
+        //sponsors.add(new Sponsor(R.drawable.sponsor_paytm_travel_partner,"Travel Partner","PAYTM"));
         sponsors.add(new Sponsor(R.drawable.sponsor_fame_technologies,"Slingshot Strategic Partner","FameTech Partner"));
         sponsors.add(new Sponsor(R.drawable.sponsor_f6s_startup_ecosystem_partner,"Startup Ecosystem Partner","F6S"));
         sponsors.add(new Sponsor(R.drawable.sponsor_blogadda_blog_outreach_partner,"Blog Outreach Partner","BlogAdda"));
@@ -76,9 +76,9 @@ public class Sponsors_fragment extends Fragment {
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Carnival Partner","Chaska"));
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Carnival Partner","Grillers & Fillers"));
         sponsors.add(new Sponsor(R.drawable.sponsor_gandivas_carnival_partner,"Carnival Partner","Gandivas"));
-        sponsors.add(new Sponsor(R.drawable.sponsor_galaxy_food_partner,"Food Partner","Galaxy"));
+        //sponsors.add(new Sponsor(R.drawable.sponsor_galaxy_food_partner,"Food Partner","Galaxy"));
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Food Partner","Winterfell"));
-        sponsors.add(new Sponsor(R.drawable.sponsor_bubblexo_food_partner,"Food Partner","BubbleXo"));
+        //sponsors.add(new Sponsor(R.drawable.sponsor_bubblexo_food_partner,"Food Partner","BubbleXo"));
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Food Partner","Desert Park"));
         sponsors.add(new Sponsor(R.drawable.sponsor_dainik_jagran_print_media_partner,"Print Media Partner","Dainik Jagran"));
         sponsors.add(new Sponsor(R.drawable.sponsor_knowafest_online_media_partner,"Online Media Partner","KnowAFest"));
