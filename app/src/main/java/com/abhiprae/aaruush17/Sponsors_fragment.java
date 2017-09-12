@@ -37,7 +37,7 @@ public class Sponsors_fragment extends Fragment {
         sponsors.add(new Sponsor(R.drawable.sponsor_vodafone_fourg,"Power Sponsor","Vodafone"));
         sponsors.add(new Sponsor(R.drawable.sponsor_ibm_technology_partner,"Technology Partner","IBM"));
         sponsors.add(new Sponsor(R.drawable.sponsor_khadims,"Eco Run Partner","KHADIMS"));
-        sponsors.add(new Sponsor(R.drawable.sponsor_luker_championship_partner,"Championship Partner","Luker Electric"));
+       // sponsors.add(new Sponsor(R.drawable.sponsor_luker_championship_partner,"Championship Partner","Luker Electric"));
         sponsors.add(new Sponsor(R.drawable.sponsor_webtek_labs_education_partner,"Education Partner","WebTek Labs"));
         sponsors.add(new Sponsor(R.drawable.maac,"Knowledge Partner","MAAC Guduvancheri"));
         sponsors.add(new Sponsor(R.drawable.sponsor_giabyte,"LANSTORM Partner","GIGABYTE"));
@@ -75,7 +75,7 @@ public class Sponsors_fragment extends Fragment {
         sponsors.add(new Sponsor(R.drawable.sponsor_kfc_coupon_partner,"Coupon Partner","KFC"));
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Carnival Partner","Chaska"));
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Carnival Partner","Grillers & Fillers"));
-        sponsors.add(new Sponsor(R.drawable.sponsor_gandivas_carnival_partner,"Carnival Partner","Gandivas"));
+       // sponsors.add(new Sponsor(R.drawable.sponsor_gandivas_carnival_partner,"Carnival Partner","Gandivas"));
         //sponsors.add(new Sponsor(R.drawable.sponsor_galaxy_food_partner,"Food Partner","Galaxy"));
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Food Partner","Winterfell"));
         //sponsors.add(new Sponsor(R.drawable.sponsor_bubblexo_food_partner,"Food Partner","BubbleXo"));

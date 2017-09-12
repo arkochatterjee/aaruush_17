@@ -162,12 +162,30 @@
             </LinearLayout>
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LinearLayout"
+            android:id="@+id/common"
+            android:gravity="center">
+
+            <Button                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_cyan"
+                android:text="  common registration  "
+                android:id="@+id/commonregis"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt16"
+                />
+        </LinearLayout>
+
+
 
         <android.support.design.widget.TabLayout
             android:id="@+id/tab_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/LinearLayout"
+            android:layout_below="@+id/common"
             android:background="#28282B"
             android:elevation="6dp"
             android:minHeight="?attr/actionBarSize"

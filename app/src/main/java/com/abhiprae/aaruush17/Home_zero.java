@@ -4,6 +4,8 @@ package com.abhiprae.aaruush17;
  * Created by Abhiprae on 7/22/2017.
  */
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.TabLayout;
@@ -15,6 +17,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
@@ -47,7 +50,15 @@ public class Home_zero extends Fragment {
         //  tvEvent = (TextView) v.findViewById(R.id.tvhappyevent);
         countDownStart();
 
-
+        Button common=(Button) view.findViewById(R.id.commonregis);
+        common.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Uri uri = Uri.parse("http://aaruush.eventze.in/sign_in");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
         //tabLayout.addTab(tabLayout.newTab().setText("Notifications"));
         tabLayout.addTab(tabLayout.newTab().setText("Tweets"));
