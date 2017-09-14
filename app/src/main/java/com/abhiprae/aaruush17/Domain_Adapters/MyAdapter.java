@@ -210,7 +210,50 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                     case 3:
                         Intent intent3 = new Intent(view.getContext(), test_activity.class);
                         intent3.putExtra("pic", R.drawable.shift);
-                        intent3.putExtra("data","No Description");
+                        intent3.putExtra("data","It’s a water event for which participants have to build or\n" +
+                                "bring their own aqua bot and pass through different rounds\n" +
+                                "within time limit to ensure their victory in the championship.\n" +
+                                "\n" +
+
+                                "\n" +
+
+                                "\n" +
+                                "Round Description\n" +
+                                "Round 1 – Shap-o- mania\n" +
+                                "In the first round the participants will have fun with the basic model of\n" +
+                                "the boat.The participants have to control the boat having a needle\n" +
+                                "attached in front of it to burst the balloons and form the desired shapes\n" +
+                                "provided to them.\n" +
+                                "Round 2 – Drag Race\n" +
+                                "The second round, i.e. DRAG RACE. It is the testing of the bot. Here the\n" +
+                                "extension spring will be used by us. One end of the spring will be tied\n" +
+                                "to one side of the bot and the other end of the spring to the other end\n" +
+                                "of the arena. On the other side of the arena wave pulses produced will\n" +
+                                "be noted. Bot reaching the farthest point within certain time limit will\n" +
+                                "qualify for the next round.\n" +
+                                "\n" +
+                                "Round 3 – A Race Agaisnt Time\n" +
+                                "\n" +
+                                "In the arena there will be obstacles parallel to each other. All six bots\n" +
+                                "qualifying for this round will have to start from origin and reach the\n" +
+                                "finish line by crossing the zigzag path. The bot taking the minimum\n" +
+                                "time will qualify for the next round.\n" +
+                                "\n" +
+                                "Round 4 – Dangal\n" +
+                                "One of the most interesting round. In which the crowd will be\n" +
+                                "experiencing DANGAL in aquatic arena for the first time ever. The bots\n" +
+                                "will be fighting with their full strengths to drag every other bot off the\n" +
+                                "arena. The round being difficult but interesting.\n" +
+                                "\n" +
+
+                                "\n" +
+
+                                "\n" +
+                                "Bot specifications\n" +
+                                "1. Bot size should not exceed 250x250 mm\n" +
+                                "2. Bot must comprise ateast of 2 motors\n" +
+                                "3. Maximum rpm of motor should not exceed more than 3000rpm\n" +
+                                "Rules will be disclosed at the arena");
                         view.getContext().startActivity(intent3);
                         break;
 

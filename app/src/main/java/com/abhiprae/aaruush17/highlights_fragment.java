@@ -37,10 +37,12 @@ public class highlights_fragment extends Fragment {
         tabLayout.addTab(tabLayout.newTab().setText("Live in Concert"));
         tabLayout.addTab(tabLayout.newTab().setText("Proshow"));
         tabLayout.addTab(tabLayout.newTab().setText("Guest Lectures"));
+        tabLayout.addTab(tabLayout.newTab().setText("Slingshot"));
+
         //tabLayout.addTab(tabLayout.newTab().setText("Expos"));
-        //tabLayout.addTab(tabLayout.newTab().setText("Industrial Conclave"));
-        //tabLayout.addTab(tabLayout.newTab().setText("Unconference"));
-        //tabLayout.addTab(tabLayout.newTab().setText("Make in India Summit"));
+        tabLayout.addTab(tabLayout.newTab().setText("Industrial Conclave"));
+        tabLayout.addTab(tabLayout.newTab().setText("Unconference"));
+        tabLayout.addTab(tabLayout.newTab().setText("Make in India Summit"));
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
@@ -97,15 +99,16 @@ public class highlights_fragment extends Fragment {
                     return new HL_proshows_fragment();
                 case 3:
                     return new FragmentTab_Highlights_GuestLectures();
-                /*case 4:
-                    return new FragmentTab_Highlights_GuestLectures();
+                case 4:
+                    return new HL_Slingshot_Fragment();
 
                 case 5:
-                    return new FragmentTab_Highlights_GuestLectures();
+                    return new HL_IndustrialConclave_Fragment();
                 case 6:
-                    return new FragmentTab_Highlights_GuestLectures();
+                    return new HL_Unoconference_Fragment();
                 case 7:
-                    return new FragmentTab_Highlights_GuestLectures();
+                    return new HL_MakeInIndia_Fragment();
+                /*
                 case 8:
                     return new FragmentTab_Highlights_GuestLectures();
 */

@@ -113,7 +113,11 @@ public class MyAdapter_DKons extends RecyclerView.Adapter<MyAdapter_DKons.MyView
                                 "\n" +
                                 "Coordinators:\n" +
                                 "Parth Girdhar: +91 9599811003\n" +
-                                "Amit Kumar: +91 7250040688");
+                                "Amit Kumar: +91 7250040688\n" +
+                                "Shoumak Mukherjee: +91 8800689797\n" +
+                                "Devyani Dinesh: +91 8319315936\n" +
+                                "Avantika Bais: +91 8939326006\n"
+                        );
                         view.getContext().startActivity(intent);
 
                         break;
