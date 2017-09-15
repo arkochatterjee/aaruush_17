@@ -36,7 +36,7 @@ public class HL_IndustrialConclave_Fragment extends android.support.v4.app.Fragm
         text1.setText("\nFor more info visit your nearest Aaruush Helpdesk");
 
         ImageView i = (ImageView) v.findViewById(R.id.imageView2);
-        Drawable drawable = getResources().getDrawable(R.drawable.coming);
+        Drawable drawable = getResources().getDrawable(R.drawable.ic);
         i.setImageDrawable(drawable);
         Button button = (Button) v.findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +47,7 @@ public class HL_IndustrialConclave_Fragment extends android.support.v4.app.Fragm
                 startActivity(intent);
             }
         });
-        button.setVisibility(View.GONE);
+     //   button.setVisibility(View.GONE);
         return v;
     }
 }

@@ -51,7 +51,7 @@ public class HL_MakeInIndia_Fragment extends android.support.v4.app.Fragment {
                 startActivity(intent);
             }
         });
-        button.setVisibility(View.GONE);
+      //  button.setVisibility(View.GONE);
         return v;
     }
 }

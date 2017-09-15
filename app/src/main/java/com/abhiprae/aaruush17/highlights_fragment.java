@@ -33,7 +33,7 @@ public class highlights_fragment extends Fragment {
 
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Comedy Nite"));
-        //tabLayout.addTab(tabLayout.newTab().setText("Movie Nite"));
+        //
         tabLayout.addTab(tabLayout.newTab().setText("Live in Concert"));
         tabLayout.addTab(tabLayout.newTab().setText("Proshow"));
         tabLayout.addTab(tabLayout.newTab().setText("Guest Lectures"));
@@ -43,6 +43,7 @@ public class highlights_fragment extends Fragment {
         tabLayout.addTab(tabLayout.newTab().setText("Industrial Conclave"));
         tabLayout.addTab(tabLayout.newTab().setText("Unconference"));
         tabLayout.addTab(tabLayout.newTab().setText("Make in India Summit"));
+        tabLayout.addTab(tabLayout.newTab().setText("Movie Nite"));
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
@@ -108,10 +109,10 @@ public class highlights_fragment extends Fragment {
                     return new HL_Unoconference_Fragment();
                 case 7:
                     return new HL_MakeInIndia_Fragment();
-                /*
+
                 case 8:
-                    return new FragmentTab_Highlights_GuestLectures();
-*/
+                    return new HL_wonderwomen_fragment();
+
                 default:
                     return null;
             }

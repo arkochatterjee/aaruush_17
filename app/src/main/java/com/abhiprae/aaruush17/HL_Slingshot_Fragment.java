@@ -52,7 +52,7 @@ public class HL_Slingshot_Fragment extends android.support.v4.app.Fragment {
                 startActivity(intent);
             }
         });
-        button.setVisibility(View.GONE);
+      //  button.setVisibility(View.GONE);
         return v;
     }
 }
