@@ -31,10 +31,15 @@ public class Sponsors_fragment extends Fragment {
         View view = inflater.inflate(R.layout.sponsor_list, container, false);
 
         final ArrayList<Sponsor> sponsors = new ArrayList<>();
+        sponsors.add(new Sponsor(R.drawable.hp,"Associate Sponsor","HP"));
         sponsors.add(new Sponsor(R.drawable.sponsor_krazy_bee_co_sponsor,"Co-Sponsor","Krazy Bee"));
+
         sponsors.add(new Sponsor(R.drawable.sponsor_vh1_logo,"Power Sponsor","VH1"));
         sponsors.add(new Sponsor(R.drawable.sponsor_comedy_central_power_sponsor,"Power Sponsor","Comedy Central"));
         sponsors.add(new Sponsor(R.drawable.sponsor_vodafone_fourg,"Power Sponsor","Vodafone"));
+        sponsors.add(new Sponsor(R.drawable.sponsor_wittyfeed_social_media_partner,"Social Media Partner","WittyFeed"));
+        sponsors.add(new Sponsor(R.drawable.sponsor_kfc_coupon_partner,"Coupon Partner","KFC"));
+        sponsors.add(new Sponsor(R.drawable.sponsor_nikon_coverage_partner,"Coverage Partner","NIKON"));
         sponsors.add(new Sponsor(R.drawable.sponsor_ibm_technology_partner,"Technology Partner","IBM"));
         sponsors.add(new Sponsor(R.drawable.sponsor_khadims,"Eco Run Partner","KHADIMS"));
        // sponsors.add(new Sponsor(R.drawable.sponsor_luker_championship_partner,"Championship Partner","Luker Electric"));
@@ -59,7 +64,7 @@ public class Sponsors_fragment extends Fragment {
         sponsors.add(new Sponsor(R.drawable.sponsor_eventze_registration_partner,"Registration Partner","Eventze"));
         sponsors.add(new Sponsor(R.drawable.sponsor_gupshup_sms_partner,"SMS Partner","Gupshup"));
         sponsors.add(new Sponsor(R.drawable.sponsor_smsidea_sms_partner,"SMS Partner","SmsIdea"));
-        sponsors.add(new Sponsor(R.drawable.sponsor_nikon_coverage_partner,"Coverage Partner","NIKON"));
+
         sponsors.add(new Sponsor(R.drawable.sponsor_xquizit_quiz_partner,"XQuizIt","Quiz Partner"));
         sponsors.add(new Sponsor(R.drawable.sponsor_deepak_enterprises_konstruction_partner,"Konstruction Partner","Deepak Enterprises"));
         //sponsors.add(new Sponsor(R.drawable.sponsor_a_t_mandal_sons_machination_partner,"Machination Partner","A T Mandal & Sons"));
@@ -70,9 +75,9 @@ public class Sponsors_fragment extends Fragment {
         sponsors.add(new Sponsor(R.drawable.srmpedia,"Broadcast Partner","SRMpedia"));
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Soul Slam Partner","Soul Journal"));
         sponsors.add(new Sponsor(R.drawable.sponsor_stoned_santa_youth_outreach_partner,"Youth Outreach Partner","Stoned Santa"));
-        sponsors.add(new Sponsor(R.drawable.sponsor_wittyfeed_social_media_partner,"Social Media Partner","WittyFeed"));
+
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Creatives Partner","Images Ceiling System"));
-        sponsors.add(new Sponsor(R.drawable.sponsor_kfc_coupon_partner,"Coupon Partner","KFC"));
+
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Carnival Partner","Chaska"));
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Carnival Partner","Grillers & Fillers"));
        // sponsors.add(new Sponsor(R.drawable.sponsor_gandivas_carnival_partner,"Carnival Partner","Gandivas"));
@@ -80,7 +85,7 @@ public class Sponsors_fragment extends Fragment {
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Food Partner","Winterfell"));
         //sponsors.add(new Sponsor(R.drawable.sponsor_bubblexo_food_partner,"Food Partner","BubbleXo"));
         //sponsors.add(new Sponsor(R.drawable.aaruushsun,"Food Partner","Desert Park"));
-        sponsors.add(new Sponsor(R.drawable.sponsor_dainik_jagran_print_media_partner,"Print Media Partner","Dainik Jagran"));
+       // sponsors.add(new Sponsor(R.drawable.sponsor_dainik_jagran_print_media_partner,"Print Media Partner","Dainik Jagran"));
         sponsors.add(new Sponsor(R.drawable.sponsor_knowafest_online_media_partner,"Online Media Partner","KnowAFest"));
         sponsors.add(new Sponsor(R.drawable.sponsor_festpav_online_media_partner,"Online Media Partner","FestPav"));
         sponsors.add(new Sponsor(R.drawable.sponsor_alleventsin_online_media_partner,"Online Media Partner","allevents.in"));
