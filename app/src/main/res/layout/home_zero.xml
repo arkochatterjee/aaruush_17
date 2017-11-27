@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
 
                 android:id="@+id/daycount"
-                android:textSize="42sp"
+                android:textSize="0sp"
                 android:textColor="#fff"
 
                 />
@@ -45,15 +45,18 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/LinearLayout"
             android:id="@+id/common"
+            android:layout_marginBottom="10sp"
             android:gravity="center">
 
-            <Button                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <Button
+                android:layout_width="200sp"
+                android:layout_height="38sp"
                 android:background="@drawable/btn_bg_cyan"
-                android:text="  common registration  "
+                android:text="  Submit Anecdotes  "
                 android:id="@+id/commonregis"
+                android:textAllCaps="false"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/txt16"
+                android:textSize="18sp"
                 />
         </LinearLayout>
 

@@ -79,7 +79,7 @@ public class Home_zero extends Fragment {
         common.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri uri = Uri.parse("http://aaruush.eventze.in/sign_in");
+                Uri uri = Uri.parse("http://tinyurl.com/anecdotesaaruush");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }
@@ -87,6 +87,7 @@ public class Home_zero extends Fragment {
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
         //tabLayout.addTab(tabLayout.newTab().setText("Notifications"));
         tabLayout.addTab(tabLayout.newTab().setText("Tweets"));
+        tabLayout.addTab(tabLayout.newTab().setText("Instagram"));
 
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
@@ -200,7 +201,7 @@ public class Home_zero extends Fragment {
                 case 0:
                     return new twitter_view();
                 case 1:
-                    return new twitter_view();
+                    return new insta_view();
 
 
                 default:

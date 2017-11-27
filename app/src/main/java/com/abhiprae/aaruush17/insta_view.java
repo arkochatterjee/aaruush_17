@@ -1,9 +1,5 @@
 package com.abhiprae.aaruush17;
 
-/**
- * Created by Abhiprae on 7/22/2017.
- */
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -12,7 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 
-public class twitter_view extends Fragment {
+/**
+ * Created by Arko Chatterjee on 27-11-2017.
+ */
+
+public class insta_view extends Fragment {
 
     public static final String TAG = "TimeLineActivity";
 
@@ -32,8 +32,8 @@ public class twitter_view extends Fragment {
         WebView webView = (WebView) v.findViewById(R.id.webview);
         webView.getSettings().setDomStorageEnabled(true);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadDataWithBaseURL(baseURl, widgetInfo, "text/html", "UTF-8", null);
-        //webView.loadUrl("https://www.instagram.com/aaruush_srm/");
+        //webView.loadDataWithBaseURL(baseURl, widgetInfo, "text/html", "UTF-8", null);
+        webView.loadUrl("https://www.instagram.com/aaruush_srm/");
 
         return v;
     }
