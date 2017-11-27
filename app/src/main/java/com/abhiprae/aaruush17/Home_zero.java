@@ -5,6 +5,7 @@ package com.abhiprae.aaruush17;
  */
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -25,7 +26,7 @@ import java.util.Date;
 
 public class Home_zero extends Fragment {
 
-    private TextView txtTimerDay, txtTimerHour, txtTimerMinute, txtTimerSecond;
+    private TextView txtTimerDay, txtTimerHour, txtTimerMinute, txtTimerSecond,day;
     private TextView tvEvent;
     private Handler handler;
     private Runnable runnable;
@@ -43,12 +44,36 @@ public class Home_zero extends Fragment {
         View view = inflater.inflate(R.layout.home_zero, container, false);
         ((MainActivity) getActivity()).setOnBackPressedListener(new BaseBackPressedListener(getActivity()));
 
-        txtTimerDay = (TextView) view.findViewById(R.id.txtTimerDay);
-        txtTimerHour = (TextView) view.findViewById(R.id.txtTimerHour);
-        txtTimerMinute = (TextView) view.findViewById(R.id.txtTimerMinute);
-        txtTimerSecond = (TextView) view.findViewById(R.id.txtTimerSecond);
+      //  txtTimerDay = (TextView) view.findViewById(R.id.txtTimerDay);
+       // txtTimerHour = (TextView) view.findViewById(R.id.txtTimerHour);
+        //txtTimerMinute = (TextView) view.findViewById(R.id.txtTimerMinute);
+        //txtTimerSecond = (TextView) view.findViewById(R.id.txtTimerSecond);
+        day = (TextView) view.findViewById(R.id.daycount);
+
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat(
+                "dd-MM-yyyy");
+        Date currentDate = new Date();
+        String strDate = dateFormat.format(currentDate);
+        String date=strDate.substring(0,2);
+       // day.setText(date);
+
+        Typeface typeface2 = Typeface.createFromAsset(getActivity().getAssets(), "fonts/avenir.otf");
+        day.setTypeface(typeface2);
+
+        if(date.equals("15"))
+            day.setText("DAY 0");
+        if(date.equals("16"))
+            day.setText("DAY 1");
+        if(date.equals("17"))
+            day.setText("DAY 2");
+        if(date.equals("18"))
+            day.setText("DAY 3");
+        if(date.equals("19"))
+            day.setText("DAY 4");
+
         //  tvEvent = (TextView) v.findViewById(R.id.tvhappyevent);
-        countDownStart();
+      //  countDownStart();
 
         Button common=(Button) view.findViewById(R.id.commonregis);
         common.setOnClickListener(new View.OnClickListener() {
@@ -111,9 +136,28 @@ public class Home_zero extends Fragment {
                     SimpleDateFormat dateFormat = new SimpleDateFormat(
                             "dd-MM-yyyy hh:mm:ss");
 // Please here set your event date//YYYY-MM-DD
-                    Date futureDate = dateFormat.parse("15-09-2017 15:00:00");
+                  //  Date futureDate = dateFormat.parse("15-09-2017 15:00:00");
+                   // Date futureDate = dateFormat.parse("14-09-2017");
+                    Date futureDate0 = dateFormat.parse("15-09-2017 ");
+                    Date futureDate1 = dateFormat.parse("16-09-2017");
+                    Date futureDate2 = dateFormat.parse("17-09-2017");
+                    Date futureDate3 = dateFormat.parse("18-09-2017");
+                    Date futureDate4 = dateFormat.parse("19-09-2017");
                     Date currentDate = new Date();
-                    if (!currentDate.after(futureDate)) {
+                    String strDate = dateFormat.format(currentDate);
+                    day.setText(strDate);
+                    /*if(currentDate.equals(futureDate0))
+                        day.setText("Day 0");
+                    if (currentDate.equals(futureDate1))
+                    day.setText("Day 1");
+                    if (currentDate.equals(futureDate2))
+                        day.setText("Day 2");
+                    if (currentDate.equals(futureDate3))
+                        day.setText("Day 3");
+                    if (currentDate.equals(futureDate4))
+                        day.setText("Day 4");
+
+                    /*if (!currentDate.after(futureDate)) {
                         long diff = futureDate.getTime()
                                 - currentDate.getTime();
                         long days = diff / (24 * 60 * 60 * 1000);
@@ -130,10 +174,10 @@ public class Home_zero extends Fragment {
                         txtTimerSecond.setText(""
                                 + String.format("%02d", seconds));
                     } else {
-                        // tvEvent.setVisibility(View.VISIBLE);
-                        // tvEvent.setText("The event started!");
+                         tvEvent.setVisibility(View.VISIBLE);
+                         tvEvent.setText("The event started!");
                         //textViewGone();
-                    }
+                    }*/
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

@@ -102,10 +102,10 @@ public class home_fragment extends android.support.v4.app.Fragment {
         }
 
 
-        txtTimerDay = (TextView) v.findViewById(R.id.txtTimerDay);
-        txtTimerHour = (TextView) v.findViewById(R.id.txtTimerHour);
-        txtTimerMinute = (TextView) v.findViewById(R.id.txtTimerMinute);
-        txtTimerSecond = (TextView) v.findViewById(R.id.txtTimerSecond);
+       // txtTimerDay = (TextView) v.findViewById(R.id.txtTimerDay);
+        //txtTimerHour = (TextView) v.findViewById(R.id.txtTimerHour);
+        //txtTimerMinute = (TextView) v.findViewById(R.id.txtTimerMinute);
+        //txtTimerSecond = (TextView) v.findViewById(R.id.txtTimerSecond);
         //  tvEvent = (TextView) v.findViewById(R.id.tvhappyevent);
         countDownStart();
 
@@ -194,8 +194,8 @@ public class home_fragment extends android.support.v4.app.Fragment {
                         txtTimerSecond.setText(""
                                 + String.format("%02d", seconds));
                     } else {
-                        // tvEvent.setVisibility(View.VISIBLE);
-                        // tvEvent.setText("The event started!");
+                         //tvEvent.setVisibility(View.VISIBLE);
+                        //tvEvent.setText("The event started!");
                         //textViewGone();
                     }
                 } catch (Exception e) {
